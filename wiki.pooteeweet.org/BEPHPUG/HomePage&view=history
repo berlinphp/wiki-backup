@@ -1,0 +1,2743 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<title>Index</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&page=HomePage" />
+		        <style>
+			body, p, br, td, th {
+				font-family: Verdana, Arial, Geneva;
+				font-size: 9pt;
+				color: black;
+			}
+			
+			blockquote {
+				border: 1px solid silver;
+				background: #eee;
+				margin: 4px;
+				padding: 4px 12px;
+			}
+			
+			table.admin {
+				border: 2px solid #039;
+				border-spacing: 0px;
+				padding: 0px;
+			}
+			
+			th.admin {
+				padding: 4px;
+				background: #039;
+				color: white;
+				font-weight: bold;
+				vertical-align: bottom;
+			}
+			
+			td.admin {
+				border: 1px solid white;
+				padding: 4px;
+				background: #eee;
+				vertical-align: top;
+			}
+			
+			h1 { font-size: 24pt; }
+			h2 { font-size: 20pt; }
+			h3 { font-size: 18pt; }
+			h4 { font-size: 16pt; }
+			h5 { font-size: 14pt; }
+			h6 { font-size: 12pt; }
+			
+			a:link, a:active, a:visited {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px solid blue;
+			}
+			
+			a:hover {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+			
+			li {
+				margin-top: 3pt;
+				margin-bottom: 3pt;
+			}
+			
+			pre {
+				border: 1px dashed #036;
+				background: #eee;
+				padding: 6pt;
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+				line-height: 140%;
+			}
+			
+			input[type="text"], input[type="password"], textarea {
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+			}
+			
+			table.nav_table {
+				width: 100%;
+			}
+			
+			td.tabs_marginal {
+				background: white;
+				border-bottom: 1px solid black;
+			}
+			
+			td.tabs_unselect {
+				background: #aaa;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.tabs_selected {
+				background: #ddd;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: none;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.wide_marginal {
+				background: #ddd;
+				border-bottom: 1px solid black;
+			}
+			
+			td.wide_unselect {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.wide_selected {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.tall_unselect {
+				font-weight: normal;
+			}
+			
+			td.tall_selected {
+				font-weight: normal;
+			}
+			
+			table.yawiki {
+				border-spacing: 0px;
+				border: 1px solid gray;
+			}
+			
+			tr.yawiki {
+			}
+			
+			th.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+				font-weight: bold;
+			}
+			
+			td.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+			}
+			
+			th.yawiki-form {
+				text-align: right;
+				padding: 4px;
+			}
+			
+			td.yawiki-form {
+				text-align: left;
+				padding: 4px;
+			}
+			
+			legend.yawiki-form {
+				font-size: 120%;
+			}
+			
+			label.yawiki-form {
+				font-weight: bold;
+			}
+			
+			div.toc_list {
+				border: 1px solid #ccc;
+				background-color: #eee;
+				padding: 1em;
+			}
+			
+			div.toc_item {
+				font-size: 90%;
+				margin-top: 0.5em;
+			}
+			
+				
+			
+		</style>
+		</head>
+	
+	<body>
+		
+		<!-- top span: title section -->
+		<table width="100%" border="0" cellspacing="4" cellpadding="4">
+			<tr>
+				<td valign="top" align="left">
+					<h1>BePHPUG</h1>
+					<p><em>Berliner PHP user group</em></p>
+				</td>
+				<td valign="top" align="right">
+					<p>[&nbsp;<a href="search.php">AdvancedSearch</a>&nbsp;|&nbsp;<a href="http://wiki.pooteeweet.org/BEPHPUG/AreaMap">AreaMap</a>&nbsp;]</p>
+					<p>
+<form action="search.php" method="get">
+	<input type="hidden" name="qtype" value="any" />	<input type="hidden" name="op" value="Search" /> 
+	Search: <input type="text" name="qword" value="" size="10" />	<input type="submit" name="" value="Go!" /></form></p>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- top span: nav section -->
+				
+		<!-- main body -->
+		<table width="100%" border="0" cellspacing="12" cellpadding="0">
+			<tr>
+			
+				<!-- left span -->
+				<td valign="top" width="15%" align="center">
+				
+					<div style="padding: 4px; border: 1px dotted gray;">
+<script language="JavaScript">
+function createNewPage(link) {
+	var newpage = prompt("New page name?");
+	if (newpage == null || newpage == "") return false;
+	link.href = "edit.php?area=BEPHPUG&page="+newpage;
+	return true;
+}
+</script>
+
+
+	
+		<form method="post" action="/BEPHPUG/HomePage&amp;view=history">
+			<input type="hidden" name="LOGIN" />
+			<p>Username:<br /><input type="text" name="username" size="10" /></p>
+			<p>Password:<br /><input type="password" name="password" size="10" /></p>
+			<p><input type="submit" value="Sign In" /></p>
+			
+					</form>
+
+		
+
+
+
+
+</div><br />					
+										<div style="padding: 4px; border: 1px dotted gray;">
+						<p><b>Areas In<br />This Wiki</b></p>
+						
+						<p><a href="http://wiki.pooteeweet.org/BEPHPUG/">BEPHPUG</a></p>
+<p><a href="http://wiki.pooteeweet.org/Conferences/">Conferences</a></p>
+<p><a href="http://wiki.pooteeweet.org/emPHPower/">emPHPower</a></p>
+<p><a href="http://wiki.pooteeweet.org/LiveUser/">LiveUser</a></p>
+<p><a href="http://wiki.pooteeweet.org/Main/">Main</a></p>
+<p><a href="http://wiki.pooteeweet.org/MDB2/">MDB2</a></p>
+<p><a href="http://wiki.pooteeweet.org/PDO/">PDO</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPSVN/">PHPSVN</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPTODO/">PHPTODO</a></p>
+<p><a href="http://wiki.pooteeweet.org/RDBMS/">RDBMS</a></p>
+<p><a href="http://wiki.pooteeweet.org/WebBuilder2/">WebBuilder2</a></p>
+					</div>
+										
+				</td>
+				
+				<!-- middle span -->
+				<td valign="top" width="70%">
+
+<h1><a href="index.php?area=BEPHPUG&amp;page=HomePage">BEPHPUG:HomePage</a></h1>
+<h2>History</h2>
+
+<p>To see the differences between two versions...</p>
+
+<ol>
+	<li>Pick a "from" version by selecting the radio button for that version.</li>
+	<li>Pick a "to" version by clicking on its submit button.</li>
+</ol>
+
+
+<form action="index.php" method="get">
+
+	<input type="hidden" name="area" value="BEPHPUG" />	<input type="hidden" name="page" value="HomePage" />	<input type="hidden" name="view" value="diff" />	
+<table border="0" cellspacing="1" cellpadding="4">
+		<tr>
+			<th valign="top">Version</th>
+			<th valign="top">Date-Time (Saved By)<br />Change Note</th>
+			<th valign="top">Diff From</th>
+			<th valign="top">Diff To</th>
+		</tr>
+				<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-02-08 15:36:54">304</a></td>
+			<td valign="top">Wed, 08 Feb 2012, 15:36 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-02-08 15:36:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-02-08 15:36:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-02-08 13:26:53">303</a></td>
+			<td valign="top">Wed, 08 Feb 2012, 13:26 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-02-08 13:26:53" checked="checked" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-02-08 13:26:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-02-08 13:23:20">302</a></td>
+			<td valign="top">Wed, 08 Feb 2012, 13:23 (till)<br /><i>links, folien</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-02-08 13:23:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-02-08 13:23:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-02-08 09:58:32">301</a></td>
+			<td valign="top">Wed, 08 Feb 2012, 09:58 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-02-08 09:58:32" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-02-08 09:58:32" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-02-01 23:29:41">300</a></td>
+			<td valign="top">Wed, 01 Feb 2012, 23:29 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-02-01 23:29:41" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-02-01 23:29:41" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-24 15:14:01">299</a></td>
+			<td valign="top">Tue, 24 Jan 2012, 15:14 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-24 15:14:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-24 15:14:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-24 15:13:33">298</a></td>
+			<td valign="top">Tue, 24 Jan 2012, 15:13 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-24 15:13:33" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-24 15:13:33" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-24 15:12:30">297</a></td>
+			<td valign="top">Tue, 24 Jan 2012, 15:12 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-24 15:12:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-24 15:12:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-23 19:25:36">296</a></td>
+			<td valign="top">Mon, 23 Jan 2012, 19:25 (till)<br /><i>agenda meh</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-23 19:25:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-23 19:25:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-23 18:29:17">295</a></td>
+			<td valign="top">Mon, 23 Jan 2012, 18:29 (till)<br /><i>typo3 und shop</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-23 18:29:17" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-23 18:29:17" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-22 14:24:20">294</a></td>
+			<td valign="top">Sun, 22 Jan 2012, 14:24 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-22 14:24:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-22 14:24:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-21 20:36:20">293</a></td>
+			<td valign="top">Sat, 21 Jan 2012, 20:36 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-21 20:36:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-21 20:36:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-21 20:36:05">292</a></td>
+			<td valign="top">Sat, 21 Jan 2012, 20:36 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-21 20:36:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-21 20:36:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-21 20:35:53">291</a></td>
+			<td valign="top">Sat, 21 Jan 2012, 20:35 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-21 20:35:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-21 20:35:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-20 16:31:44">290</a></td>
+			<td valign="top">Fri, 20 Jan 2012, 16:31 (till)<br /><i>dezember, januar etc.</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-20 16:31:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-20 16:31:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-20 16:21:03">289</a></td>
+			<td valign="top">Fri, 20 Jan 2012, 16:21 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-20 16:21:03" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-20 16:21:03" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-20 15:03:15">288</a></td>
+			<td valign="top">Fri, 20 Jan 2012, 15:03 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-20 15:03:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-20 15:03:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-20 14:04:46">287</a></td>
+			<td valign="top">Fri, 20 Jan 2012, 14:04 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-20 14:04:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-20 14:04:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-20 13:59:18">286</a></td>
+			<td valign="top">Fri, 20 Jan 2012, 13:59 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-20 13:59:18" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-20 13:59:18" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-19 14:07:57">285</a></td>
+			<td valign="top">Thu, 19 Jan 2012, 14:07 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-19 14:07:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-19 14:07:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-19 13:57:21">284</a></td>
+			<td valign="top">Thu, 19 Jan 2012, 13:57 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-19 13:57:21" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-19 13:57:21" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-19 13:56:29">283</a></td>
+			<td valign="top">Thu, 19 Jan 2012, 13:56 (till)<br /><i>märz, februar talks</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-19 13:56:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-19 13:56:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-19 13:46:45">282</a></td>
+			<td valign="top">Thu, 19 Jan 2012, 13:46 (till)<br /><i>naechster termin, meine slides</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-19 13:46:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-19 13:46:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-17 23:51:44">281</a></td>
+			<td valign="top">Tue, 17 Jan 2012, 23:51 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-17 23:51:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-17 23:51:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-17 23:50:59">280</a></td>
+			<td valign="top">Tue, 17 Jan 2012, 23:50 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-17 23:50:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-17 23:50:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-17 23:50:22">279</a></td>
+			<td valign="top">Tue, 17 Jan 2012, 23:50 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-17 23:50:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-17 23:50:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-17 11:58:36">278</a></td>
+			<td valign="top">Tue, 17 Jan 2012, 11:58 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-17 11:58:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-17 11:58:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-16 13:42:50">277</a></td>
+			<td valign="top">Mon, 16 Jan 2012, 13:42 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-16 13:42:50" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-16 13:42:50" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-04 16:17:08">276</a></td>
+			<td valign="top">Wed, 04 Jan 2012, 16:17 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-04 16:17:08" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-04 16:17:08" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2012-01-02 13:05:23">275</a></td>
+			<td valign="top">Mon, 02 Jan 2012, 13:05 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2012-01-02 13:05:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2012-01-02 13:05:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-11-25 15:58:05">274</a></td>
+			<td valign="top">Fri, 25 Nov 2011, 15:58 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-11-25 15:58:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-11-25 15:58:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-11-25 15:57:36">273</a></td>
+			<td valign="top">Fri, 25 Nov 2011, 15:57 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-11-25 15:57:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-11-25 15:57:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-11-25 15:56:34">272</a></td>
+			<td valign="top">Fri, 25 Nov 2011, 15:56 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-11-25 15:56:34" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-11-25 15:56:34" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-11-25 15:55:11">271</a></td>
+			<td valign="top">Fri, 25 Nov 2011, 15:55 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-11-25 15:55:11" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-11-25 15:55:11" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-10-31 15:50:34">270</a></td>
+			<td valign="top">Mon, 31 Oct 2011, 15:50 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-10-31 15:50:34" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-10-31 15:50:34" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-09-27 21:10:58">269</a></td>
+			<td valign="top">Tue, 27 Sep 2011, 21:10 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-09-27 21:10:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-09-27 21:10:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-07-20 01:02:47">268</a></td>
+			<td valign="top">Wed, 20 Jul 2011, 01:02 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-07-20 01:02:47" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-07-20 01:02:47" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-06-30 09:43:20">267</a></td>
+			<td valign="top">Thu, 30 Jun 2011, 09:43 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-06-30 09:43:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-06-30 09:43:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-06-30 09:42:45">266</a></td>
+			<td valign="top">Thu, 30 Jun 2011, 09:42 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-06-30 09:42:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-06-30 09:42:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-06-30 03:17:26">265</a></td>
+			<td valign="top">Thu, 30 Jun 2011, 03:17 (till)<br /><i>zeta folien</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-06-30 03:17:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-06-30 03:17:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-06-27 16:17:26">264</a></td>
+			<td valign="top">Mon, 27 Jun 2011, 16:17 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-06-27 16:17:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-06-27 16:17:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-06-27 16:16:02">263</a></td>
+			<td valign="top">Mon, 27 Jun 2011, 16:16 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-06-27 16:16:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-06-27 16:16:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-30 12:03:44">262</a></td>
+			<td valign="top">Mon, 30 May 2011, 12:03 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-30 12:03:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-30 12:03:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-30 12:02:57">261</a></td>
+			<td valign="top">Mon, 30 May 2011, 12:02 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-30 12:02:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-30 12:02:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-30 12:02:31">260</a></td>
+			<td valign="top">Mon, 30 May 2011, 12:02 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-30 12:02:31" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-30 12:02:31" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-30 12:01:54">259</a></td>
+			<td valign="top">Mon, 30 May 2011, 12:01 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-30 12:01:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-30 12:01:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-16 16:55:26">258</a></td>
+			<td valign="top">Mon, 16 May 2011, 16:55 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-16 16:55:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-16 16:55:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-12 02:15:09">257</a></td>
+			<td valign="top">Thu, 12 May 2011, 02:15 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-12 02:15:09" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-12 02:15:09" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-12 02:11:56">256</a></td>
+			<td valign="top">Thu, 12 May 2011, 02:11 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-12 02:11:56" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-12 02:11:56" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-12 02:10:21">255</a></td>
+			<td valign="top">Thu, 12 May 2011, 02:10 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-12 02:10:21" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-12 02:10:21" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-09 02:47:30">254</a></td>
+			<td valign="top">Mon, 09 May 2011, 02:47 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-09 02:47:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-09 02:47:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-09 02:46:02">253</a></td>
+			<td valign="top">Mon, 09 May 2011, 02:46 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-09 02:46:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-09 02:46:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-08 16:05:49">252</a></td>
+			<td valign="top">Sun, 08 May 2011, 16:05 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-08 16:05:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-08 16:05:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 22:03:54">251</a></td>
+			<td valign="top">Sat, 07 May 2011, 22:03 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 22:03:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 22:03:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 22:02:23">250</a></td>
+			<td valign="top">Sat, 07 May 2011, 22:02 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 22:02:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 22:02:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 22:01:50">249</a></td>
+			<td valign="top">Sat, 07 May 2011, 22:01 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 22:01:50" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 22:01:50" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 17:36:18">248</a></td>
+			<td valign="top">Sat, 07 May 2011, 17:36 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 17:36:18" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 17:36:18" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 17:34:53">247</a></td>
+			<td valign="top">Sat, 07 May 2011, 17:34 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 17:34:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 17:34:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-07 17:18:18">246</a></td>
+			<td valign="top">Sat, 07 May 2011, 17:18 (till)<br /><i>meine chef slides</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-07 17:18:18" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-07 17:18:18" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-06 17:42:30">245</a></td>
+			<td valign="top">Fri, 06 May 2011, 17:42 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-06 17:42:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-06 17:42:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-06 17:23:05">244</a></td>
+			<td valign="top">Fri, 06 May 2011, 17:23 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-06 17:23:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-06 17:23:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-05-02 22:55:13">243</a></td>
+			<td valign="top">Mon, 02 May 2011, 22:55 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-05-02 22:55:13" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-05-02 22:55:13" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-02-26 23:13:49">242</a></td>
+			<td valign="top">Sat, 26 Feb 2011, 23:13 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-02-26 23:13:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-02-26 23:13:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-01-30 14:45:37">241</a></td>
+			<td valign="top">Sun, 30 Jan 2011, 14:45 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-01-30 14:45:37" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-01-30 14:45:37" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-01-24 16:43:08">240</a></td>
+			<td valign="top">Mon, 24 Jan 2011, 16:43 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-01-24 16:43:08" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-01-24 16:43:08" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2011-01-02 13:16:02">239</a></td>
+			<td valign="top">Sun, 02 Jan 2011, 13:16 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2011-01-02 13:16:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2011-01-02 13:16:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-12-31 14:21:46">238</a></td>
+			<td valign="top">Fri, 31 Dec 2010, 14:21 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-12-31 14:21:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-12-31 14:21:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-09-06 17:01:35">237</a></td>
+			<td valign="top">Mon, 06 Sep 2010, 17:01 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-09-06 17:01:35" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-09-06 17:01:35" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-09-06 16:41:12">236</a></td>
+			<td valign="top">Mon, 06 Sep 2010, 16:41 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-09-06 16:41:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-09-06 16:41:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-08-07 11:15:47">235</a></td>
+			<td valign="top">Sat, 07 Aug 2010, 11:15 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-08-07 11:15:47" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-08-07 11:15:47" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-07-01 16:36:42">234</a></td>
+			<td valign="top">Thu, 01 Jul 2010, 16:36 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-07-01 16:36:42" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-07-01 16:36:42" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-06-03 15:53:44">233</a></td>
+			<td valign="top">Thu, 03 Jun 2010, 15:53 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-06-03 15:53:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-06-03 15:53:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-06-03 15:53:25">232</a></td>
+			<td valign="top">Thu, 03 Jun 2010, 15:53 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-06-03 15:53:25" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-06-03 15:53:25" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-06-03 15:51:35">231</a></td>
+			<td valign="top">Thu, 03 Jun 2010, 15:51 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-06-03 15:51:35" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-06-03 15:51:35" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-05-19 19:03:36">230</a></td>
+			<td valign="top">Wed, 19 May 2010, 19:03 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-05-19 19:03:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-05-19 19:03:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-05-19 18:54:40">229</a></td>
+			<td valign="top">Wed, 19 May 2010, 18:54 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-05-19 18:54:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-05-19 18:54:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-10 00:25:51">228</a></td>
+			<td valign="top">Sat, 10 Apr 2010, 00:25 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-10 00:25:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-10 00:25:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-10 00:24:59">227</a></td>
+			<td valign="top">Sat, 10 Apr 2010, 00:24 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-10 00:24:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-10 00:24:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-10 00:16:40">226</a></td>
+			<td valign="top">Sat, 10 Apr 2010, 00:16 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-10 00:16:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-10 00:16:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-10 00:16:26">225</a></td>
+			<td valign="top">Sat, 10 Apr 2010, 00:16 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-10 00:16:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-10 00:16:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-07 15:34:35">224</a></td>
+			<td valign="top">Wed, 07 Apr 2010, 15:34 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-07 15:34:35" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-07 15:34:35" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-07 12:59:38">223</a></td>
+			<td valign="top">Wed, 07 Apr 2010, 12:59 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-07 12:59:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-07 12:59:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-04-07 12:57:54">222</a></td>
+			<td valign="top">Wed, 07 Apr 2010, 12:57 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-04-07 12:57:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-04-07 12:57:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-03-17 22:14:15">221</a></td>
+			<td valign="top">Wed, 17 Mar 2010, 22:14 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-03-17 22:14:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-03-17 22:14:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-03-11 15:42:52">220</a></td>
+			<td valign="top">Thu, 11 Mar 2010, 15:42 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-03-11 15:42:52" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-03-11 15:42:52" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-03-06 15:29:34">219</a></td>
+			<td valign="top">Sat, 06 Mar 2010, 15:29 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-03-06 15:29:34" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-03-06 15:29:34" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-22 23:06:17">218</a></td>
+			<td valign="top">Mon, 22 Feb 2010, 23:06 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-22 23:06:17" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-22 23:06:17" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-22 22:47:59">217</a></td>
+			<td valign="top">Mon, 22 Feb 2010, 22:47 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-22 22:47:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-22 22:47:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-22 22:47:37">216</a></td>
+			<td valign="top">Mon, 22 Feb 2010, 22:47 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-22 22:47:37" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-22 22:47:37" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-04 11:05:06">215</a></td>
+			<td valign="top">Thu, 04 Feb 2010, 11:05 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-04 11:05:06" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-04 11:05:06" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-03 23:20:46">214</a></td>
+			<td valign="top">Wed, 03 Feb 2010, 23:20 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-03 23:20:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-03 23:20:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-03 19:29:41">213</a></td>
+			<td valign="top">Wed, 03 Feb 2010, 19:29 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-03 19:29:41" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-03 19:29:41" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-02-03 19:08:19">212</a></td>
+			<td valign="top">Wed, 03 Feb 2010, 19:08 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-02-03 19:08:19" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-02-03 19:08:19" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-13 23:08:56">211</a></td>
+			<td valign="top">Wed, 13 Jan 2010, 23:08 (rmehner)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-13 23:08:56" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-13 23:08:56" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-06 17:12:38">210</a></td>
+			<td valign="top">Wed, 06 Jan 2010, 17:12 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-06 17:12:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-06 17:12:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-06 17:07:57">209</a></td>
+			<td valign="top">Wed, 06 Jan 2010, 17:07 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-06 17:07:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-06 17:07:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-06 17:05:51">208</a></td>
+			<td valign="top">Wed, 06 Jan 2010, 17:05 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-06 17:05:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-06 17:05:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-04 17:49:11">207</a></td>
+			<td valign="top">Mon, 04 Jan 2010, 17:49 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-04 17:49:11" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-04 17:49:11" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2010-01-04 17:47:26">206</a></td>
+			<td valign="top">Mon, 04 Jan 2010, 17:47 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2010-01-04 17:47:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2010-01-04 17:47:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-09 13:57:23">205</a></td>
+			<td valign="top">Wed, 09 Dec 2009, 13:57 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-09 13:57:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-09 13:57:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-07 17:52:31">204</a></td>
+			<td valign="top">Mon, 07 Dec 2009, 17:52 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-07 17:52:31" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-07 17:52:31" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-07 17:48:01">203</a></td>
+			<td valign="top">Mon, 07 Dec 2009, 17:48 (vog)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-07 17:48:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-07 17:48:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-07 17:16:37">202</a></td>
+			<td valign="top">Mon, 07 Dec 2009, 17:16 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-07 17:16:37" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-07 17:16:37" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-07 17:15:10">201</a></td>
+			<td valign="top">Mon, 07 Dec 2009, 17:15 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-07 17:15:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-07 17:15:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-12-07 17:12:58">200</a></td>
+			<td valign="top">Mon, 07 Dec 2009, 17:12 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-12-07 17:12:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-12-07 17:12:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-11-13 18:32:38">199</a></td>
+			<td valign="top">Fri, 13 Nov 2009, 18:32 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-11-13 18:32:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-11-13 18:32:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-11-03 17:15:50">198</a></td>
+			<td valign="top">Tue, 03 Nov 2009, 17:15 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-11-03 17:15:50" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-11-03 17:15:50" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-10-28 14:49:40">197</a></td>
+			<td valign="top">Wed, 28 Oct 2009, 14:49 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-10-28 14:49:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-10-28 14:49:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-09-09 18:07:22">196</a></td>
+			<td valign="top">Wed, 09 Sep 2009, 18:07 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-09-09 18:07:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-09-09 18:07:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-09-04 18:05:22">195</a></td>
+			<td valign="top">Fri, 04 Sep 2009, 18:05 (till)<br /><i>Folien, Vortrag Oktober, etc.</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-09-04 18:05:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-09-04 18:05:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-08-22 14:30:05">194</a></td>
+			<td valign="top">Sat, 22 Aug 2009, 14:30 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-08-22 14:30:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-08-22 14:30:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-07-06 11:49:56">193</a></td>
+			<td valign="top">Mon, 06 Jul 2009, 11:49 (till)<br /><i>Bisschen aufraeumen...</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-07-06 11:49:56" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-07-06 11:49:56" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-07-02 14:06:16">192</a></td>
+			<td valign="top">Thu, 02 Jul 2009, 14:06 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-07-02 14:06:16" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-07-02 14:06:16" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-07-02 13:57:02">191</a></td>
+			<td valign="top">Thu, 02 Jul 2009, 13:57 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-07-02 13:57:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-07-02 13:57:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-06-22 17:12:53">190</a></td>
+			<td valign="top">Mon, 22 Jun 2009, 17:12 (till)<br /><i>Auf Juli</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-06-22 17:12:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-06-22 17:12:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-06-16 10:21:17">189</a></td>
+			<td valign="top">Tue, 16 Jun 2009, 10:21 (vog)<br /><i>Logo auf bephpug.de gehostet, Verlinkung von &quot;Volker&quot;</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-06-16 10:21:17" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-06-16 10:21:17" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-05-25 19:23:33">188</a></td>
+			<td valign="top">Mon, 25 May 2009, 19:23 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-05-25 19:23:33" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-05-25 19:23:33" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-05-12 15:57:16">187</a></td>
+			<td valign="top">Tue, 12 May 2009, 15:57 (till)<br /><i>PHP BBQ Tour verlinkt, Vortrag fuer Juli</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-05-12 15:57:16" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-05-12 15:57:16" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-05-07 14:05:15">186</a></td>
+			<td valign="top">Thu, 07 May 2009, 14:05 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-05-07 14:05:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-05-07 14:05:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-05-06 11:44:52">185</a></td>
+			<td valign="top">Wed, 06 May 2009, 11:44 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-05-06 11:44:52" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-05-06 11:44:52" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-04-26 03:06:36">184</a></td>
+			<td valign="top">Sun, 26 Apr 2009, 03:06 (78.106.127.146)<br /><i>MESSAGE</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-04-26 03:06:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-04-26 03:06:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-04-01 14:51:29">183</a></td>
+			<td valign="top">Wed, 01 Apr 2009, 14:51 (till)<br /><i>Vortrag Mai</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-04-01 14:51:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-04-01 14:51:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-03-10 17:29:19">182</a></td>
+			<td valign="top">Tue, 10 Mar 2009, 17:29 (84.190.21.140)<br /><i>removed Edit links from the text</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-03-10 17:29:19" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-03-10 17:29:19" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-03-09 18:40:15">181</a></td>
+			<td valign="top">Mon, 09 Mar 2009, 18:40 (84.190.5.28)<br /><i>Slides von Manuel und Ankündigung für April</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-03-09 18:40:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-03-09 18:40:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-03-03 11:56:10">180</a></td>
+			<td valign="top">Tue, 03 Mar 2009, 11:56 (84.190.44.168)<br /><i>Thema für März</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2009-03-03 11:56:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2009-03-03 11:56:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-12-04 15:54:22">179</a></td>
+			<td valign="top">Thu, 04 Dec 2008, 15:54 (84.190.49.174)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-12-04 15:54:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-12-04 15:54:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-12-04 15:19:54">178</a></td>
+			<td valign="top">Thu, 04 Dec 2008, 15:19 (84.190.49.174)<br /><i>Max' slides</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-12-04 15:19:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-12-04 15:19:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-12-04 15:03:16">177</a></td>
+			<td valign="top">Thu, 04 Dec 2008, 15:03 (84.190.49.174)<br /><i>new ideas for topics</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-12-04 15:03:16" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-12-04 15:03:16" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-12-03 19:07:00">176</a></td>
+			<td valign="top">Wed, 03 Dec 2008, 19:07 (141.89.226.149)<br /><i>slides reorganized</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-12-03 19:07:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-12-03 19:07:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-12-03 15:09:53">175</a></td>
+			<td valign="top">Wed, 03 Dec 2008, 15:09 (141.89.226.149)<br /><i>next date changed</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-12-03 15:09:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-12-03 15:09:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-11-06 16:21:42">174</a></td>
+			<td valign="top">Thu, 06 Nov 2008, 16:21 (78.53.3.170)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-11-06 16:21:42" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-11-06 16:21:42" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-11-06 16:20:51">173</a></td>
+			<td valign="top">Thu, 06 Nov 2008, 16:20 (78.53.3.170)<br /><i>add couchdb slides</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-11-06 16:20:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-11-06 16:20:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-10-22 15:47:12">172</a></td>
+			<td valign="top">Wed, 22 Oct 2008, 15:47 (141.89.226.146)<br /><i>date for November</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-10-22 15:47:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-10-22 15:47:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-10-22 15:44:49">171</a></td>
+			<td valign="top">Wed, 22 Oct 2008, 15:44 (141.89.226.146)<br /><i>http://www.phpug-duesseldorf.de</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-10-22 15:44:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-10-22 15:44:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-09-16 19:08:42">170</a></td>
+			<td valign="top">Tue, 16 Sep 2008, 19:08 (till)<br /><i>Links hinzugefuegt, Jans Namen gebaut</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-09-16 19:08:42" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-09-16 19:08:42" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-09-15 12:37:38">169</a></td>
+			<td valign="top">Mon, 15 Sep 2008, 12:37 (till)<br /><i>Vortraege fuer Oktober und November hinzugefuegt</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-09-15 12:37:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-09-15 12:37:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-09-15 11:57:44">168</a></td>
+			<td valign="top">Mon, 15 Sep 2008, 11:57 (till)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-09-15 11:57:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-09-15 11:57:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-09-15 11:57:00">167</a></td>
+			<td valign="top">Mon, 15 Sep 2008, 11:57 (till)<br /><i>Vortraege</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-09-15 11:57:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-09-15 11:57:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-09-15 11:55:00">166</a></td>
+			<td valign="top">Mon, 15 Sep 2008, 11:55 (till)<br /><i>Datum geaendert</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-09-15 11:55:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-09-15 11:55:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-06-02 23:49:06">165</a></td>
+			<td valign="top">Mon, 02 Jun 2008, 23:49 (87.123.102.60)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-06-02 23:49:06" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-06-02 23:49:06" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-05-18 16:45:23">164</a></td>
+			<td valign="top">Sun, 18 May 2008, 16:45 (217.88.189.252)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-05-18 16:45:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-05-18 16:45:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-05-07 12:46:59">163</a></td>
+			<td valign="top">Wed, 07 May 2008, 12:46 (217.88.169.13)<br /><i>Nächsten Treffen: 7. Mai 2008</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-05-07 12:46:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-05-07 12:46:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-04-10 15:20:32">162</a></td>
+			<td valign="top">Thu, 10 Apr 2008, 15:20 (124.171.225.198)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-04-10 15:20:32" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-04-10 15:20:32" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-02-17 09:03:53">161</a></td>
+			<td valign="top">Sun, 17 Feb 2008, 09:03 (84.190.33.46)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-02-17 09:03:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-02-17 09:03:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-02-10 09:50:10">160</a></td>
+			<td valign="top">Sun, 10 Feb 2008, 09:50 (84.190.23.197)<br /><i>Paper for meta programming talk added</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-02-10 09:50:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-02-10 09:50:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-02-01 04:46:25">159</a></td>
+			<td valign="top">Fri, 01 Feb 2008, 04:46 (64.80.234.59)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-02-01 04:46:25" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-02-01 04:46:25" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-01-24 21:41:48">158</a></td>
+			<td valign="top">Thu, 24 Jan 2008, 21:41 (141.89.226.149)<br /><i>Nächster Termin, Material zum letzten Treffen</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-01-24 21:41:48" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-01-24 21:41:48" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2008-01-08 04:40:20">157</a></td>
+			<td valign="top">Tue, 08 Jan 2008, 04:40 (84.190.54.52)<br /><i>Vortrag für Januar 2008</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2008-01-08 04:40:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2008-01-08 04:40:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-11 16:52:28">156</a></td>
+			<td valign="top">Tue, 11 Dec 2007, 16:52 (141.89.75.52)<br /><i>the last slides of december 3rd, 2007</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-11 16:52:28" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-11 16:52:28" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-07 10:24:35">155</a></td>
+			<td valign="top">Fri, 07 Dec 2007, 10:24 (213.191.34.245)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-07 10:24:35" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-07 10:24:35" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-06 00:11:11">154</a></td>
+			<td valign="top">Thu, 06 Dec 2007, 00:11 (217.88.151.144)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-06 00:11:11" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-06 00:11:11" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-05 11:43:49">153</a></td>
+			<td valign="top">Wed, 05 Dec 2007, 11:43 (141.89.226.149)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-05 11:43:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-05 11:43:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-05 11:42:44">152</a></td>
+			<td valign="top">Wed, 05 Dec 2007, 11:42 (141.89.226.149)<br /><i>Material zum Refactoring Vortrag</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-05 11:42:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-05 11:42:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-04 15:45:29">151</a></td>
+			<td valign="top">Tue, 04 Dec 2007, 15:45 (141.89.226.149)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-04 15:45:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-04 15:45:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-04 15:40:57">150</a></td>
+			<td valign="top">Tue, 04 Dec 2007, 15:40 (141.89.226.149)<br /><i>Neuer Themenvorschlag</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-04 15:40:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-04 15:40:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-04 14:46:58">149</a></td>
+			<td valign="top">Tue, 04 Dec 2007, 14:46 (141.89.226.149)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-04 14:46:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-04 14:46:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-12-02 23:56:38">148</a></td>
+			<td valign="top">Sun, 02 Dec 2007, 23:56 (84.190.38.80)<br /><i>Vortragende für Dezember aktualisiert</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-12-02 23:56:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-12-02 23:56:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-22 01:46:45">147</a></td>
+			<td valign="top">Thu, 22 Nov 2007, 01:46 (84.190.60.63)<br /><i>Namen für den zweiten Vortrag im Dezember</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-22 01:46:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-22 01:46:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-09 17:12:02">146</a></td>
+			<td valign="top">Fri, 09 Nov 2007, 17:12 (130.149.146.90)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-09 17:12:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-09 17:12:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-09 15:36:40">145</a></td>
+			<td valign="top">Fri, 09 Nov 2007, 15:36 (130.149.146.90)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-09 15:36:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-09 15:36:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-09 13:39:25">144</a></td>
+			<td valign="top">Fri, 09 Nov 2007, 13:39 (130.149.146.90)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-09 13:39:25" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-09 13:39:25" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-08 14:25:43">143</a></td>
+			<td valign="top">Thu, 08 Nov 2007, 14:25 (84.190.55.120)<br /><i>Link &quot;einen weiteren Vortrag anbieten...&quot;</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-08 14:25:43" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-08 14:25:43" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-08 14:21:28">142</a></td>
+			<td valign="top">Thu, 08 Nov 2007, 14:21 (84.190.55.120)<br /><i>Kleine Änderung im Vortragstitel</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-08 14:21:28" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-08 14:21:28" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-08 14:18:14">141</a></td>
+			<td valign="top">Thu, 08 Nov 2007, 14:18 (84.190.55.120)<br /><i>Vorträge für Dezember, Themenvorschläge, Folien zu PHPCallGraph</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-08 14:18:14" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-08 14:18:14" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-11-06 14:58:12">140</a></td>
+			<td valign="top">Tue, 06 Nov 2007, 14:58 (141.89.226.149)<br /><i>Vorträge für November</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-11-06 14:58:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-11-06 14:58:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-10-11 12:36:30">139</a></td>
+			<td valign="top">Thu, 11 Oct 2007, 12:36 (84.190.42.86)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-10-11 12:36:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-10-11 12:36:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-10-11 12:34:29">138</a></td>
+			<td valign="top">Thu, 11 Oct 2007, 12:34 (84.190.42.86)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-10-11 12:34:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-10-11 12:34:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-10-09 14:20:57">137</a></td>
+			<td valign="top">Tue, 09 Oct 2007, 14:20 (84.190.63.169)<br /><i>Nächste Termine</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-10-09 14:20:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-10-09 14:20:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-24 15:19:43">136</a></td>
+			<td valign="top">Mon, 24 Sep 2007, 15:19 (77.57.23.243)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-24 15:19:43" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-24 15:19:43" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-10 20:53:29">135</a></td>
+			<td valign="top">Mon, 10 Sep 2007, 20:53 (84.190.28.79)<br /><i>new date</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-10 20:53:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-10 20:53:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-05 13:13:25">134</a></td>
+			<td valign="top">Wed, 05 Sep 2007, 13:13 (84.190.52.186)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-05 13:13:25" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-05 13:13:25" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-05 11:10:32">133</a></td>
+			<td valign="top">Wed, 05 Sep 2007, 11:10 (217.88.190.59)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-05 11:10:32" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-05 11:10:32" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-05 11:10:02">132</a></td>
+			<td valign="top">Wed, 05 Sep 2007, 11:10 (217.88.190.59)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-05 11:10:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-05 11:10:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-05 01:39:22">131</a></td>
+			<td valign="top">Wed, 05 Sep 2007, 01:39 (84.190.52.186)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-05 01:39:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-05 01:39:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-05 01:33:45">130</a></td>
+			<td valign="top">Wed, 05 Sep 2007, 01:33 (84.190.52.186)<br /><i>Slides for the InstantSVC talk</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-05 01:33:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-05 01:33:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-09-03 11:04:00">129</a></td>
+			<td valign="top">Mon, 03 Sep 2007, 11:04 (84.190.2.9)<br /><i>Wochentag ausgeschrieben, denn jetzt reicht der Platz aus ;)</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-09-03 11:04:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-09-03 11:04:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-31 20:55:01">128</a></td>
+			<td valign="top">Fri, 31 Aug 2007, 20:55 (84.190.11.42)<br /><i>new talk announced</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-31 20:55:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-31 20:55:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-31 14:13:46">127</a></td>
+			<td valign="top">Fri, 31 Aug 2007, 14:13 (217.88.179.179)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-31 14:13:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-31 14:13:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-30 14:15:58">126</a></td>
+			<td valign="top">Thu, 30 Aug 2007, 14:15 (84.190.9.69)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-30 14:15:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-30 14:15:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-30 14:14:10">125</a></td>
+			<td valign="top">Thu, 30 Aug 2007, 14:14 (84.190.9.69)<br /><i>talks emphasized, additional text</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-30 14:14:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-30 14:14:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-30 10:22:15">124</a></td>
+			<td valign="top">Thu, 30 Aug 2007, 10:22 (84.190.9.69)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-30 10:22:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-30 10:22:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-30 10:21:33">123</a></td>
+			<td valign="top">Thu, 30 Aug 2007, 10:21 (84.190.9.69)<br /><i>new logo, teilnehmer section removed, restructuring and reformating</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-30 10:21:33" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-30 10:21:33" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-08 19:44:09">122</a></td>
+			<td valign="top">Wed, 08 Aug 2007, 19:44 (217.88.168.167)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-08 19:44:09" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-08 19:44:09" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-08 18:35:27">121</a></td>
+			<td valign="top">Wed, 08 Aug 2007, 18:35 (217.88.168.167)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-08 18:35:27" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-08 18:35:27" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-07 11:42:24">120</a></td>
+			<td valign="top">Tue, 07 Aug 2007, 11:42 (134.155.25.91)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-07 11:42:24" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-07 11:42:24" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-08-07 10:24:30">119</a></td>
+			<td valign="top">Tue, 07 Aug 2007, 10:24 (134.155.25.91)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-08-07 10:24:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-08-07 10:24:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-07-05 00:45:23">118</a></td>
+			<td valign="top">Thu, 05 Jul 2007, 00:45 (217.88.154.240)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-07-05 00:45:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-07-05 00:45:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-07-03 10:42:52">117</a></td>
+			<td valign="top">Tue, 03 Jul 2007, 10:42 (217.88.171.244)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-07-03 10:42:52" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-07-03 10:42:52" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-06-06 03:14:48">116</a></td>
+			<td valign="top">Wed, 06 Jun 2007, 03:14 (217.88.179.207)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-06-06 03:14:48" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-06-06 03:14:48" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-05-12 11:48:47">115</a></td>
+			<td valign="top">Sat, 12 May 2007, 11:48 (217.88.167.212)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-05-12 11:48:47" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-05-12 11:48:47" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-04-22 22:06:46">114</a></td>
+			<td valign="top">Sun, 22 Apr 2007, 22:06 (217.88.182.216)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-04-22 22:06:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-04-22 22:06:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-02-20 22:45:59">113</a></td>
+			<td valign="top">Tue, 20 Feb 2007, 22:45 (217.88.170.238)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-02-20 22:45:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-02-20 22:45:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-02-18 11:31:41">112</a></td>
+			<td valign="top">Sun, 18 Feb 2007, 11:31 (217.88.177.117)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-02-18 11:31:41" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-02-18 11:31:41" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-01-09 22:50:19">111</a></td>
+			<td valign="top">Tue, 09 Jan 2007, 22:50 (217.88.168.18)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-01-09 22:50:19" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-01-09 22:50:19" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2007-01-09 12:14:30">110</a></td>
+			<td valign="top">Tue, 09 Jan 2007, 12:14 (217.88.168.18)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2007-01-09 12:14:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2007-01-09 12:14:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-12-05 14:09:23">109</a></td>
+			<td valign="top">Tue, 05 Dec 2006, 14:09 (141.89.221.38)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-12-05 14:09:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-12-05 14:09:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-10-13 19:49:30">108</a></td>
+			<td valign="top">Fri, 13 Oct 2006, 19:49 (88.72.239.249)<br /><i>link auf liste korrigiert</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-10-13 19:49:30" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-10-13 19:49:30" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-10-04 13:35:17">107</a></td>
+			<td valign="top">Wed, 04 Oct 2006, 13:35 (88.72.230.33)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-10-04 13:35:17" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-10-04 13:35:17" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-10-03 12:54:24">106</a></td>
+			<td valign="top">Tue, 03 Oct 2006, 12:54 (217.244.231.10)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-10-03 12:54:24" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-10-03 12:54:24" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-10-02 11:48:29">105</a></td>
+			<td valign="top">Mon, 02 Oct 2006, 11:48 (217.244.227.107)<br /><i>Datum aktualisiert</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-10-02 11:48:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-10-02 11:48:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-08-20 18:20:38">104</a></td>
+			<td valign="top">Sun, 20 Aug 2006, 18:20 (85.178.169.171)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-08-20 18:20:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-08-20 18:20:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-08-01 18:26:50">103</a></td>
+			<td valign="top">Tue, 01 Aug 2006, 18:26 (141.20.194.133)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-08-01 18:26:50" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-08-01 18:26:50" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-07-30 22:22:51">102</a></td>
+			<td valign="top">Sun, 30 Jul 2006, 22:22 (84.190.247.72)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-07-30 22:22:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-07-30 22:22:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-07-24 20:13:49">101</a></td>
+			<td valign="top">Mon, 24 Jul 2006, 20:13 (217.27.206.156)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-07-24 20:13:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-07-24 20:13:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 02:45:23">100</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 02:45 (87.123.66.185)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 02:45:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 02:45:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:18:12">99</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:18 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:18:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:18:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:15:50">98</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:15 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:15:50" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:15:50" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:14:55">97</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:14 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:14:55" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:14:55" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:14:23">96</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:14 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:14:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:14:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:11:40">95</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:11 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:11:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:11:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:11:05">94</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:11 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:11:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:11:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-06-17 00:01:03">93</a></td>
+			<td valign="top">Sat, 17 Jun 2006, 00:01 (193.95.89.35)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-06-17 00:01:03" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-06-17 00:01:03" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-05-02 19:50:40">92</a></td>
+			<td valign="top">Tue, 02 May 2006, 19:50 (212.202.237.162)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-05-02 19:50:40" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-05-02 19:50:40" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-04-05 12:11:19">91</a></td>
+			<td valign="top">Wed, 05 Apr 2006, 12:11 (217.244.230.180)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-04-05 12:11:19" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-04-05 12:11:19" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-04-01 10:02:47">90</a></td>
+			<td valign="top">Sat, 01 Apr 2006, 10:02 (217.244.228.148)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-04-01 10:02:47" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-04-01 10:02:47" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-03-08 09:50:54">89</a></td>
+			<td valign="top">Wed, 08 Mar 2006, 09:50 (84.191.228.53)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-03-08 09:50:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-03-08 09:50:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-02-10 13:27:02">88</a></td>
+			<td valign="top">Fri, 10 Feb 2006, 13:27 (84.19.197.19)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-02-10 13:27:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-02-10 13:27:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-02-01 21:55:23">87</a></td>
+			<td valign="top">Wed, 01 Feb 2006, 21:55 (87.123.92.243)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-02-01 21:55:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-02-01 21:55:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-02-01 21:54:22">86</a></td>
+			<td valign="top">Wed, 01 Feb 2006, 21:54 (87.123.92.243)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-02-01 21:54:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-02-01 21:54:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-02-01 15:15:32">85</a></td>
+			<td valign="top">Wed, 01 Feb 2006, 15:15 (217.244.224.27)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-02-01 15:15:32" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-02-01 15:15:32" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-01-18 19:15:58">84</a></td>
+			<td valign="top">Wed, 18 Jan 2006, 19:15 (141.20.21.53)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-01-18 19:15:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-01-18 19:15:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-01-04 22:44:37">83</a></td>
+			<td valign="top">Wed, 04 Jan 2006, 22:44 (87.123.81.254)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-01-04 22:44:37" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-01-04 22:44:37" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-01-04 22:42:21">82</a></td>
+			<td valign="top">Wed, 04 Jan 2006, 22:42 (87.123.81.254)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-01-04 22:42:21" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-01-04 22:42:21" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-01-03 23:50:23">81</a></td>
+			<td valign="top">Tue, 03 Jan 2006, 23:50 (87.123.86.38)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-01-03 23:50:23" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-01-03 23:50:23" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-01-03 23:49:29">80</a></td>
+			<td valign="top">Tue, 03 Jan 2006, 23:49 (87.123.86.38)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2006-01-03 23:49:29" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2006-01-03 23:49:29" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-06 17:31:00">79</a></td>
+			<td valign="top">Tue, 06 Dec 2005, 17:31 (85.178.155.18)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-06 17:31:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-06 17:31:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-06 16:37:06">78</a></td>
+			<td valign="top">Tue, 06 Dec 2005, 16:37 (212.202.243.210)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-06 16:37:06" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-06 16:37:06" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-06 13:05:28">77</a></td>
+			<td valign="top">Tue, 06 Dec 2005, 13:05 (212.202.237.162)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-06 13:05:28" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-06 13:05:28" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-05 13:48:05">76</a></td>
+			<td valign="top">Mon, 05 Dec 2005, 13:48 (217.244.230.107)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-05 13:48:05" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-05 13:48:05" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-05 13:46:10">75</a></td>
+			<td valign="top">Mon, 05 Dec 2005, 13:46 (217.244.230.107)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-05 13:46:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-05 13:46:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-05 11:58:13">74</a></td>
+			<td valign="top">Mon, 05 Dec 2005, 11:58 (217.244.231.216)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-05 11:58:13" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-05 11:58:13" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-05 11:43:00">73</a></td>
+			<td valign="top">Mon, 05 Dec 2005, 11:43 (217.244.231.216)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-05 11:43:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-05 11:43:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-05 11:08:04">72</a></td>
+			<td valign="top">Mon, 05 Dec 2005, 11:08 (217.244.231.216)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-05 11:08:04" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-05 11:08:04" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-12-01 14:03:12">71</a></td>
+			<td valign="top">Thu, 01 Dec 2005, 14:03 (130.149.17.70)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-12-01 14:03:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-12-01 14:03:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-30 19:16:31">70</a></td>
+			<td valign="top">Wed, 30 Nov 2005, 19:16 (87.123.86.128)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-30 19:16:31" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-30 19:16:31" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-23 17:34:59">69</a></td>
+			<td valign="top">Wed, 23 Nov 2005, 17:34 (217.83.85.24)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-23 17:34:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-23 17:34:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-23 10:54:57">68</a></td>
+			<td valign="top">Wed, 23 Nov 2005, 10:54 (87.123.80.226)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-23 10:54:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-23 10:54:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-22 15:23:17">67</a></td>
+			<td valign="top">Tue, 22 Nov 2005, 15:23 (213.23.145.226)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-22 15:23:17" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-22 15:23:17" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-22 10:03:22">66</a></td>
+			<td valign="top">Tue, 22 Nov 2005, 10:03 (194.97.163.76)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-22 10:03:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-22 10:03:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-16 19:26:02">65</a></td>
+			<td valign="top">Wed, 16 Nov 2005, 19:26 (217.111.31.182)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-16 19:26:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-16 19:26:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-12 00:04:58">64</a></td>
+			<td valign="top">Sat, 12 Nov 2005, 00:04 (130.149.156.17)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-12 00:04:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-12 00:04:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-03 00:20:26">63</a></td>
+			<td valign="top">Thu, 03 Nov 2005, 00:20 (87.123.82.82)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-03 00:20:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-03 00:20:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-03 00:08:19">62</a></td>
+			<td valign="top">Thu, 03 Nov 2005, 00:08 (87.123.82.82)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-03 00:08:19" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-03 00:08:19" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-02 23:49:01">61</a></td>
+			<td valign="top">Wed, 02 Nov 2005, 23:49 (212.164.71.254)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-11-02 23:49:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-11-02 23:49:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-31 21:25:13">60</a></td>
+			<td valign="top">Mon, 31 Oct 2005, 21:25 (62.180.164.172)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-31 21:25:13" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-31 21:25:13" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-31 21:22:33">59</a></td>
+			<td valign="top">Mon, 31 Oct 2005, 21:22 (87.123.80.80)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-31 21:22:33" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-31 21:22:33" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-27 10:16:02">58</a></td>
+			<td valign="top">Thu, 27 Oct 2005, 10:16 (lsmith)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-27 10:16:02" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-27 10:16:02" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-19 01:44:44">57</a></td>
+			<td valign="top">Wed, 19 Oct 2005, 01:44 (84.86.211.40)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-19 01:44:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-19 01:44:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-04 17:17:13">56</a></td>
+			<td valign="top">Tue, 04 Oct 2005, 17:17 (217.244.231.76)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-04 17:17:13" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-04 17:17:13" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-10-04 17:16:28">55</a></td>
+			<td valign="top">Tue, 04 Oct 2005, 17:16 (217.244.231.76)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-10-04 17:16:28" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-10-04 17:16:28" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-09-19 22:25:52">54</a></td>
+			<td valign="top">Mon, 19 Sep 2005, 22:25 (87.123.93.50)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-09-19 22:25:52" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-09-19 22:25:52" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-09-12 00:03:48">53</a></td>
+			<td valign="top">Mon, 12 Sep 2005, 00:03 (87.123.66.13)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-09-12 00:03:48" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-09-12 00:03:48" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-09-12 00:03:36">52</a></td>
+			<td valign="top">Mon, 12 Sep 2005, 00:03 (87.123.66.13)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-09-12 00:03:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-09-12 00:03:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-09-02 21:07:41">51</a></td>
+			<td valign="top">Fri, 02 Sep 2005, 21:07 (217.244.228.7)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-09-02 21:07:41" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-09-02 21:07:41" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-09-02 21:02:18">50</a></td>
+			<td valign="top">Fri, 02 Sep 2005, 21:02 (217.244.228.7)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-09-02 21:02:18" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-09-02 21:02:18" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-08-02 19:09:32">49</a></td>
+			<td valign="top">Tue, 02 Aug 2005, 19:09 (141.20.192.179)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-08-02 19:09:32" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-08-02 19:09:32" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-08-01 16:12:14">48</a></td>
+			<td valign="top">Mon, 01 Aug 2005, 16:12 (84.190.219.94)<br /><i>die url sum subskribieren hat sich geändert ...</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-08-01 16:12:14" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-08-01 16:12:14" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-22 18:11:08">47</a></td>
+			<td valign="top">Fri, 22 Jul 2005, 18:11 (141.20.193.240)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-22 18:11:08" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-22 18:11:08" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-16 10:30:58">46</a></td>
+			<td valign="top">Sat, 16 Jul 2005, 10:30 (62.214.179.132)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-16 10:30:58" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-16 10:30:58" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-16 10:30:00">45</a></td>
+			<td valign="top">Sat, 16 Jul 2005, 10:30 (62.214.179.132)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-16 10:30:00" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-16 10:30:00" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-14 14:52:44">44</a></td>
+			<td valign="top">Thu, 14 Jul 2005, 14:52 (62.176.139.220)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-14 14:52:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-14 14:52:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-14 09:38:01">43</a></td>
+			<td valign="top">Thu, 14 Jul 2005, 09:38 (217.244.228.68)<br /><i>Übersichtlichkeit verbessert</i></td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-14 09:38:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-14 09:38:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-07 16:14:36">42</a></td>
+			<td valign="top">Thu, 07 Jul 2005, 16:14 (141.20.50.17)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-07 16:14:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-07 16:14:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-06 02:49:59">41</a></td>
+			<td valign="top">Wed, 06 Jul 2005, 02:49 (82.140.20.13)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-06 02:49:59" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-06 02:49:59" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-06 02:48:15">40</a></td>
+			<td valign="top">Wed, 06 Jul 2005, 02:48 (82.140.20.13)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-06 02:48:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-06 02:48:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-04 20:28:51">39</a></td>
+			<td valign="top">Mon, 04 Jul 2005, 20:28 (194.97.162.197)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-04 20:28:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-04 20:28:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-07-04 03:21:24">38</a></td>
+			<td valign="top">Mon, 04 Jul 2005, 03:21 (82.82.199.235)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-07-04 03:21:24" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-07-04 03:21:24" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-06-21 18:53:54">37</a></td>
+			<td valign="top">Tue, 21 Jun 2005, 18:53 (84.188.245.183)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-06-21 18:53:54" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-06-21 18:53:54" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-06-21 14:20:36">36</a></td>
+			<td valign="top">Tue, 21 Jun 2005, 14:20 (194.231.186.227)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-06-21 14:20:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-06-21 14:20:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-06-21 14:07:01">35</a></td>
+			<td valign="top">Tue, 21 Jun 2005, 14:07 (84.188.245.183)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-06-21 14:07:01" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-06-21 14:07:01" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-06-21 14:06:26">34</a></td>
+			<td valign="top">Tue, 21 Jun 2005, 14:06 (84.188.245.183)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-06-21 14:06:26" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-06-21 14:06:26" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-04-02 23:45:51">33</a></td>
+			<td valign="top">Sat, 02 Apr 2005, 23:45 (84.188.245.177)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-04-02 23:45:51" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-04-02 23:45:51" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-29 14:21:12">32</a></td>
+			<td valign="top">Tue, 29 Mar 2005, 14:21 (62.67.212.53)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-29 14:21:12" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-29 14:21:12" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-22 23:50:27">31</a></td>
+			<td valign="top">Tue, 22 Mar 2005, 23:50 (217.244.224.72)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-22 23:50:27" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-22 23:50:27" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-22 23:37:45">30</a></td>
+			<td valign="top">Tue, 22 Mar 2005, 23:37 (82.140.16.210)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-22 23:37:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-22 23:37:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-20 10:29:21">29</a></td>
+			<td valign="top">Sun, 20 Mar 2005, 10:29 (212.202.200.9)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-20 10:29:21" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-20 10:29:21" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-12 22:09:53">28</a></td>
+			<td valign="top">Sat, 12 Mar 2005, 22:09 (82.140.19.18)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-12 22:09:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-12 22:09:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-12 22:06:47">27</a></td>
+			<td valign="top">Sat, 12 Mar 2005, 22:06 (82.140.19.18)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-12 22:06:47" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-12 22:06:47" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-09 16:01:28">26</a></td>
+			<td valign="top">Wed, 09 Mar 2005, 16:01 (84.188.220.233)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-09 16:01:28" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-09 16:01:28" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-09 12:00:25">25</a></td>
+			<td valign="top">Wed, 09 Mar 2005, 12:00 (62.214.177.56)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-09 12:00:25" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-09 12:00:25" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-08 19:44:11">24</a></td>
+			<td valign="top">Tue, 08 Mar 2005, 19:44 (212.202.174.150)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-08 19:44:11" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-08 19:44:11" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-08 14:32:14">23</a></td>
+			<td valign="top">Tue, 08 Mar 2005, 14:32 (84.188.213.243)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-08 14:32:14" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-08 14:32:14" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-08 12:40:15">22</a></td>
+			<td valign="top">Tue, 08 Mar 2005, 12:40 (130.149.150.67)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-08 12:40:15" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-08 12:40:15" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-08 12:38:04">21</a></td>
+			<td valign="top">Tue, 08 Mar 2005, 12:38 (130.149.150.67)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-08 12:38:04" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-08 12:38:04" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-03-02 11:28:53">20</a></td>
+			<td valign="top">Wed, 02 Mar 2005, 11:28 (217.231.179.232)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-03-02 11:28:53" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-03-02 11:28:53" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-22 14:22:11">19</a></td>
+			<td valign="top">Tue, 22 Feb 2005, 14:22 (212.202.174.150)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-22 14:22:11" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-22 14:22:11" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-15 16:46:34">18</a></td>
+			<td valign="top">Tue, 15 Feb 2005, 16:46 (62.214.152.248)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-15 16:46:34" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-15 16:46:34" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-13 23:15:20">17</a></td>
+			<td valign="top">Sun, 13 Feb 2005, 23:15 (82.140.18.33)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-13 23:15:20" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-13 23:15:20" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-13 23:11:57">16</a></td>
+			<td valign="top">Sun, 13 Feb 2005, 23:11 (82.140.18.33)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-13 23:11:57" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-13 23:11:57" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-13 23:06:22">15</a></td>
+			<td valign="top">Sun, 13 Feb 2005, 23:06 (82.140.18.33)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-13 23:06:22" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-13 23:06:22" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-12 11:11:46">14</a></td>
+			<td valign="top">Sat, 12 Feb 2005, 11:11 (84.57.97.167)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-12 11:11:46" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-12 11:11:46" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-12 00:37:55">13</a></td>
+			<td valign="top">Sat, 12 Feb 2005, 00:37 (82.140.19.0)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-12 00:37:55" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-12 00:37:55" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-12 00:36:16">12</a></td>
+			<td valign="top">Sat, 12 Feb 2005, 00:36 (82.140.19.0)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-12 00:36:16" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-12 00:36:16" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 18:14:10">11</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 18:14 (212.202.200.49)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 18:14:10" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 18:14:10" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 18:13:49">10</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 18:13 (212.202.200.49)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 18:13:49" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 18:13:49" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 16:27:44">9</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 16:27 (212.202.40.149)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 16:27:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 16:27:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 15:19:38">8</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 15:19 (84.188.206.140)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 15:19:38" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 15:19:38" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 15:03:44">7</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 15:03 (84.188.206.140)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 15:03:44" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 15:03:44" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 07:32:16">6</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 07:32 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 07:32:16" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 07:32:16" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 07:19:56">5</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 07:19 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 07:19:56" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 07:19:56" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 07:18:39">4</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 07:18 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 07:18:39" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 07:18:39" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 06:31:36">3</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 06:31 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 06:31:36" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 06:31:36" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 06:13:43">2</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 06:13 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 06:13:43" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 06:13:43" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-11 06:05:45">1</a></td>
+			<td valign="top">Fri, 11 Feb 2005, 06:05 (82.140.18.21)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-11 06:05:45" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-11 06:05:45" />			</td>
+		</tr>
+			<tr>
+			<td valign="top"><a href="index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-02-10 23:17:42">0</a></td>
+			<td valign="top">Thu, 10 Feb 2005, 23:17 (lsmith)</td>
+			<td valign="top" align="center">
+				<input type="radio" name="from" value="2005-02-10 23:17:42" />			</td>
+			<td valign="top">
+				<input type="submit" name="to" value="2005-02-10 23:17:42" />			</td>
+		</tr>
+		</table>
+
+</form>
+
+
+
+				</td>
+				<td valign="top" width="15%">
+									</td>
+			</tr>
+		</table>
+	</body>
+</html>

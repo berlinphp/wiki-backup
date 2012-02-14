@@ -1,0 +1,346 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<title>BEPHPUG -- HomePage</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&page=HomePage" />
+		        <style>
+			body, p, br, td, th {
+				font-family: Verdana, Arial, Geneva;
+				font-size: 9pt;
+				color: black;
+			}
+			
+			blockquote {
+				border: 1px solid silver;
+				background: #eee;
+				margin: 4px;
+				padding: 4px 12px;
+			}
+			
+			table.admin {
+				border: 2px solid #039;
+				border-spacing: 0px;
+				padding: 0px;
+			}
+			
+			th.admin {
+				padding: 4px;
+				background: #039;
+				color: white;
+				font-weight: bold;
+				vertical-align: bottom;
+			}
+			
+			td.admin {
+				border: 1px solid white;
+				padding: 4px;
+				background: #eee;
+				vertical-align: top;
+			}
+			
+			h1 { font-size: 24pt; }
+			h2 { font-size: 20pt; }
+			h3 { font-size: 18pt; }
+			h4 { font-size: 16pt; }
+			h5 { font-size: 14pt; }
+			h6 { font-size: 12pt; }
+			
+			a:link, a:active, a:visited {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px solid blue;
+			}
+			
+			a:hover {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+			
+			li {
+				margin-top: 3pt;
+				margin-bottom: 3pt;
+			}
+			
+			pre {
+				border: 1px dashed #036;
+				background: #eee;
+				padding: 6pt;
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+				line-height: 140%;
+			}
+			
+			input[type="text"], input[type="password"], textarea {
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+			}
+			
+			table.nav_table {
+				width: 100%;
+			}
+			
+			td.tabs_marginal {
+				background: white;
+				border-bottom: 1px solid black;
+			}
+			
+			td.tabs_unselect {
+				background: #aaa;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.tabs_selected {
+				background: #ddd;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: none;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.wide_marginal {
+				background: #ddd;
+				border-bottom: 1px solid black;
+			}
+			
+			td.wide_unselect {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.wide_selected {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.tall_unselect {
+				font-weight: normal;
+			}
+			
+			td.tall_selected {
+				font-weight: normal;
+			}
+			
+			table.yawiki {
+				border-spacing: 0px;
+				border: 1px solid gray;
+			}
+			
+			tr.yawiki {
+			}
+			
+			th.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+				font-weight: bold;
+			}
+			
+			td.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+			}
+			
+			th.yawiki-form {
+				text-align: right;
+				padding: 4px;
+			}
+			
+			td.yawiki-form {
+				text-align: left;
+				padding: 4px;
+			}
+			
+			legend.yawiki-form {
+				font-size: 120%;
+			}
+			
+			label.yawiki-form {
+				font-weight: bold;
+			}
+			
+			div.toc_list {
+				border: 1px solid #ccc;
+				background-color: #eee;
+				padding: 1em;
+			}
+			
+			div.toc_item {
+				font-size: 90%;
+				margin-top: 0.5em;
+			}
+			
+				
+			
+		</style>
+		</head>
+	
+	<body>
+		
+		<!-- top span: title section -->
+		<table width="100%" border="0" cellspacing="4" cellpadding="4">
+			<tr>
+				<td valign="top" align="left">
+					<h1>BePHPUG</h1>
+					<p><em>Berliner PHP user group</em></p>
+				</td>
+				<td valign="top" align="right">
+					<p>[&nbsp;<a href="search.php">AdvancedSearch</a>&nbsp;|&nbsp;<a href="http://wiki.pooteeweet.org/BEPHPUG/AreaMap">AreaMap</a>&nbsp;]</p>
+					<p>
+<form action="search.php" method="get">
+	<input type="hidden" name="qtype" value="any" />	<input type="hidden" name="op" value="Search" /> 
+	Search: <input type="text" name="qword" value="" size="10" />	<input type="submit" name="" value="Go!" /></form></p>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- top span: nav section -->
+				
+		<!-- main body -->
+		<table width="100%" border="0" cellspacing="12" cellpadding="0">
+			<tr>
+			
+				<!-- left span -->
+				<td valign="top" width="15%" align="center">
+				
+					<div style="padding: 4px; border: 1px dotted gray;">
+<script language="JavaScript">
+function createNewPage(link) {
+	var newpage = prompt("New page name?");
+	if (newpage == null || newpage == "") return false;
+	link.href = "edit.php?area=BEPHPUG&page="+newpage;
+	return true;
+}
+</script>
+
+
+	
+		<form method="post" action="/BEPHPUG/index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2006-08-01%2018:26:50">
+			<input type="hidden" name="LOGIN" />
+			<p>Username:<br /><input type="text" name="username" size="10" /></p>
+			<p>Password:<br /><input type="password" name="password" size="10" /></p>
+			<p><input type="submit" value="Sign In" /></p>
+			
+					</form>
+
+		
+
+
+
+
+</div><br />					
+										<div style="padding: 4px; border: 1px dotted gray;">
+						<p><b>Areas In<br />This Wiki</b></p>
+						
+						<p>BEPHPUG</p>
+<p><a href="http://wiki.pooteeweet.org/Conferences/">Conferences</a></p>
+<p><a href="http://wiki.pooteeweet.org/emPHPower/">emPHPower</a></p>
+<p><a href="http://wiki.pooteeweet.org/LiveUser/">LiveUser</a></p>
+<p><a href="http://wiki.pooteeweet.org/Main/">Main</a></p>
+<p><a href="http://wiki.pooteeweet.org/MDB2/">MDB2</a></p>
+<p><a href="http://wiki.pooteeweet.org/PDO/">PDO</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPSVN/">PHPSVN</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPTODO/">PHPTODO</a></p>
+<p><a href="http://wiki.pooteeweet.org/RDBMS/">RDBMS</a></p>
+<p><a href="http://wiki.pooteeweet.org/WebBuilder2/">WebBuilder2</a></p>
+					</div>
+										
+				</td>
+				
+				<!-- middle span -->
+				<td valign="top" width="70%">
+
+<p style="color: red; text-align: center;">Previous version dated<br />Tue, 01 Aug 2006, 18:26</p>
+
+<h1>Berliner PHP Usergroup</h1>
+<p><img src="http://www.linkmatrix.de/x/400x300-bephpug-logo.png" alt="http://www.linkmatrix.de/x/400x300-bephpug-logo.png" /></p>
+
+<h3 id="toc0"> Mailingliste</h3>
+<p>bephpug@thing.org<br />
+<a href="https://mail.einsnull.com/mailman/listinfo/bephpug" onclick="window.open(this.href, '_self'); return false;">https://mail.einsnull.com/mailman/listinfo/bephpug</a></p>
+
+<h3 id="toc1">Unser n&auml;chstes Treffen</h3>
+<h3 id="toc2">Dienstag 2006-08-01 - 20:30 Uhr</h3>
+<p>Die Uhrzeit unseres Treffens wurde um halbe Stunde auf 20:30 Uhr verschoben, damit das Problem &quot;geschlossene T&uuml;r&quot; nicht wieder auftritt. Dieser Vorschlag wurde einstimmig angenommen. (9 daf&uuml;r, keine dagegen)</p>
+
+<p><img src="http://www.z-bar.de/neon-z.gif" alt="http://www.z-bar.de/neon-z.gif" /><br />
+<strong> <a href="http://www.z-bar.de/" onclick="window.open(this.href, '_self'); return false;">www.Z-Bar.de (Bergstr. 2 / Berlin-Mitte)</a> </strong></p>
+
+<p>Teilnehmer:</p>
+
+<p>sicher:<br />
+ * Frank Th&uuml;ring<br />
+ * Manuel Blechschmidt<br />
+ * Mario Scholz<br />
+ * Volker Grabsch</p>
+
+<p>unsicher:</p>
+
+<p>nicht dabei:</p>
+
+<p>Vortragsthema: AJAX TwoBirds<a href="http://oss.backendmedia.com/edit.php?area=BEPHPUG&page=TwoBirds">?</a>, warum ist das geil?<br />
+Vortragender: Frank Th&uuml;ring</p>
+
+<h3 id="toc3">Krypto-Info:</h3>
+<p>Stolze Besitzer eines GPG-Schl&uuml;ssels:<br />
+
+<ul>
+    <li>Volker Grabsch (7BE52077)</li>
+    <li>Christoph Becker (59995AE4)</li>
+    <li>Fabian Blechschmidt (A87B579C)</li>
+    <li>Manuel Blechschmidt (9A24EDDB)</li>
+</ul>
+
+</p>
+
+<h3 id="toc4">Usergroups in Deutschland:</h3>
+
+<ul>
+    <li><a href="http://www.phpug.de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpug.de/</a></li>
+    <li><a href="http://www.phpclasses.org/browse/country/de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpclasses.org/browse/country/de/</a></li>
+</ul>
+
+<h3 id="toc5">Letzten &Auml;nderungen</h3>
+<p><a href="http://oss.backendmedia.com/changes.php?area=BEPHPUG" onclick="window.open(this.href, '_self'); return false;">http://oss.backendmedia.com/changes.php?area=BEPHPUG</a></p>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px dotted gray; margin-top: 12px;">
+	<tr>
+		<td valign="top">
+			<i>BEPHPUG:HomePage (141.20.194.133)<br />
+			Tue, 01 Aug 2006, 18:26</i>
+		</td>
+		<td align="right" valign="top">
+			[ <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=links">Links</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=source">Source</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=history">History</a>						| <a href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&amp;page=HomePage">RSS</a>						]
+		</td>
+	</tr>
+</table>
+
+<p style="font-size: 80%; text-align: center;">This site powered by <a href="http://yawiki.com/">YaWiki 0.22 beta</a>.</p>
+
+
+
+				</td>
+				<td valign="top" width="15%">
+									</td>
+			</tr>
+		</table>
+	</body>
+</html>

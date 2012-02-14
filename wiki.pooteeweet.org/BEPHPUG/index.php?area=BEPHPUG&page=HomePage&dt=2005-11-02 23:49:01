@@ -1,0 +1,387 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<title>BEPHPUG -- HomePage</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&page=HomePage" />
+		        <style>
+			body, p, br, td, th {
+				font-family: Verdana, Arial, Geneva;
+				font-size: 9pt;
+				color: black;
+			}
+			
+			blockquote {
+				border: 1px solid silver;
+				background: #eee;
+				margin: 4px;
+				padding: 4px 12px;
+			}
+			
+			table.admin {
+				border: 2px solid #039;
+				border-spacing: 0px;
+				padding: 0px;
+			}
+			
+			th.admin {
+				padding: 4px;
+				background: #039;
+				color: white;
+				font-weight: bold;
+				vertical-align: bottom;
+			}
+			
+			td.admin {
+				border: 1px solid white;
+				padding: 4px;
+				background: #eee;
+				vertical-align: top;
+			}
+			
+			h1 { font-size: 24pt; }
+			h2 { font-size: 20pt; }
+			h3 { font-size: 18pt; }
+			h4 { font-size: 16pt; }
+			h5 { font-size: 14pt; }
+			h6 { font-size: 12pt; }
+			
+			a:link, a:active, a:visited {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px solid blue;
+			}
+			
+			a:hover {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+			
+			li {
+				margin-top: 3pt;
+				margin-bottom: 3pt;
+			}
+			
+			pre {
+				border: 1px dashed #036;
+				background: #eee;
+				padding: 6pt;
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+				line-height: 140%;
+			}
+			
+			input[type="text"], input[type="password"], textarea {
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+			}
+			
+			table.nav_table {
+				width: 100%;
+			}
+			
+			td.tabs_marginal {
+				background: white;
+				border-bottom: 1px solid black;
+			}
+			
+			td.tabs_unselect {
+				background: #aaa;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.tabs_selected {
+				background: #ddd;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: none;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.wide_marginal {
+				background: #ddd;
+				border-bottom: 1px solid black;
+			}
+			
+			td.wide_unselect {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.wide_selected {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.tall_unselect {
+				font-weight: normal;
+			}
+			
+			td.tall_selected {
+				font-weight: normal;
+			}
+			
+			table.yawiki {
+				border-spacing: 0px;
+				border: 1px solid gray;
+			}
+			
+			tr.yawiki {
+			}
+			
+			th.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+				font-weight: bold;
+			}
+			
+			td.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+			}
+			
+			th.yawiki-form {
+				text-align: right;
+				padding: 4px;
+			}
+			
+			td.yawiki-form {
+				text-align: left;
+				padding: 4px;
+			}
+			
+			legend.yawiki-form {
+				font-size: 120%;
+			}
+			
+			label.yawiki-form {
+				font-weight: bold;
+			}
+			
+			div.toc_list {
+				border: 1px solid #ccc;
+				background-color: #eee;
+				padding: 1em;
+			}
+			
+			div.toc_item {
+				font-size: 90%;
+				margin-top: 0.5em;
+			}
+			
+				
+			
+		</style>
+		</head>
+	
+	<body>
+		
+		<!-- top span: title section -->
+		<table width="100%" border="0" cellspacing="4" cellpadding="4">
+			<tr>
+				<td valign="top" align="left">
+					<h1>BePHPUG</h1>
+					<p><em>Berliner PHP user group</em></p>
+				</td>
+				<td valign="top" align="right">
+					<p>[&nbsp;<a href="search.php">AdvancedSearch</a>&nbsp;|&nbsp;<a href="http://wiki.pooteeweet.org/BEPHPUG/AreaMap">AreaMap</a>&nbsp;]</p>
+					<p>
+<form action="search.php" method="get">
+	<input type="hidden" name="qtype" value="any" />	<input type="hidden" name="op" value="Search" /> 
+	Search: <input type="text" name="qword" value="" size="10" />	<input type="submit" name="" value="Go!" /></form></p>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- top span: nav section -->
+				
+		<!-- main body -->
+		<table width="100%" border="0" cellspacing="12" cellpadding="0">
+			<tr>
+			
+				<!-- left span -->
+				<td valign="top" width="15%" align="center">
+				
+					<div style="padding: 4px; border: 1px dotted gray;">
+<script language="JavaScript">
+function createNewPage(link) {
+	var newpage = prompt("New page name?");
+	if (newpage == null || newpage == "") return false;
+	link.href = "edit.php?area=BEPHPUG&page="+newpage;
+	return true;
+}
+</script>
+
+
+	
+		<form method="post" action="/BEPHPUG/index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2005-11-02%2023:49:01">
+			<input type="hidden" name="LOGIN" />
+			<p>Username:<br /><input type="text" name="username" size="10" /></p>
+			<p>Password:<br /><input type="password" name="password" size="10" /></p>
+			<p><input type="submit" value="Sign In" /></p>
+			
+					</form>
+
+		
+
+
+
+
+</div><br />					
+										<div style="padding: 4px; border: 1px dotted gray;">
+						<p><b>Areas In<br />This Wiki</b></p>
+						
+						<p>BEPHPUG</p>
+<p><a href="http://wiki.pooteeweet.org/Conferences/">Conferences</a></p>
+<p><a href="http://wiki.pooteeweet.org/emPHPower/">emPHPower</a></p>
+<p><a href="http://wiki.pooteeweet.org/LiveUser/">LiveUser</a></p>
+<p><a href="http://wiki.pooteeweet.org/Main/">Main</a></p>
+<p><a href="http://wiki.pooteeweet.org/MDB2/">MDB2</a></p>
+<p><a href="http://wiki.pooteeweet.org/PDO/">PDO</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPSVN/">PHPSVN</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPTODO/">PHPTODO</a></p>
+<p><a href="http://wiki.pooteeweet.org/RDBMS/">RDBMS</a></p>
+<p><a href="http://wiki.pooteeweet.org/WebBuilder2/">WebBuilder2</a></p>
+					</div>
+										
+				</td>
+				
+				<!-- middle span -->
+				<td valign="top" width="70%">
+
+<p style="color: red; text-align: center;">Previous version dated<br />Wed, 02 Nov 2005, 23:49</p>
+
+<h1>Berliner PHP Usergroup</h1>
+<p><img src="http://www.linkmatrix.de/x/400x300-bephpug-logo.png" alt="http://www.linkmatrix.de/x/400x300-bephpug-logo.png" /></p>
+
+<h3 id="toc0"> Mailingliste</h3>
+<p>bephpug@thing.org<br />
+<a href="https://mail.einsnull.com/mailman/listinfo/bephpug" onclick="window.open(this.href, '_self'); return false;">https://mail.einsnull.com/mailman/listinfo/bephpug</a></p>
+
+<h3 id="toc1"> Unser n&auml;chstes Treffen</h3>
+<h3 id="toc2">Dienstag 2005-11-01 - 20:00 Uhr</h3>
+<p><img src="http://www.z-bar.de/neon-z.gif" alt="http://www.z-bar.de/neon-z.gif" /><br />
+<strong> <a href="http://www.z-bar.de/" onclick="window.open(this.href, '_self'); return false;">www.Z-Bar.de (Bergstr. 2 / Berlin-Mitte)</a> </strong></p>
+
+<p>Teilnehmer:</p>
+
+<p>sicher:</p>
+
+<p>unsicher:<br />
+Detlef Gerlich<br />
+Robert Westenkirchner<br />
+(abh&auml;ngig davon, ob sonst noch jemand kommt,<br />
+im Oktober waren wir die einzigen... was ist hier los?)</p>
+
+<p>nicht dabei:</p>
+
+<p>Vortragsthema:<br />
+Vortragender:</p>
+
+<h3 id="toc3">Usergroups in Deutschland:</h3>
+
+<ul>
+    <li><a href="http://www.phpug.de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpug.de/</a></li>
+    <li><a href="http://www.phpclasses.org/browse/country/de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpclasses.org/browse/country/de/</a></li>
+</ul>
+
+<h3 id="toc4">Letzten &Auml;nderungen</h3>
+<p><a href="http://oss.backendmedia.com/changes.php?area=BEPHPUG" onclick="window.open(this.href, '_self'); return false;">http://oss.backendmedia.com/changes.php?area=BEPHPUG</a></p>
+
+<p>Good online pharmacy<br />
+<a href="http://cheap-viagra.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://cheap-viagra.ufa.plugfr.org</a><br />
+<a href="http://lexapro.ptu.tk.to" onclick="window.open(this.href, '_self'); return false;">http://lexapro.ptu.tk.to</a><br />
+<a href="http://fosamax.ptu.tk.to" onclick="window.open(this.href, '_self'); return false;">http://fosamax.ptu.tk.to</a><br />
+<a href="http://allegra-cheap.ptu.tk.to" onclick="window.open(this.href, '_self'); return false;">http://allegra-cheap.ptu.tk.to</a><br />
+<a href="http://denavir.ptu.tk.to" onclick="window.open(this.href, '_self'); return false;">http://denavir.ptu.tk.to</a><br />
+<a href="http://condylox.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://condylox.ufa.plugfr.org</a><br />
+<a href="http://cheap-cialis.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://cheap-cialis.ufa.plugfr.org</a><br />
+<a href="http://imitrex.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://imitrex.ufa.plugfr.org</a><br />
+<a href="http://clarinex.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://clarinex.ufa.plugfr.org</a><br />
+<a href="http://propecia-cheap.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://propecia-cheap.ufa.plugfr.org</a><br />
+<a href="http://buy-lipitor.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://buy-lipitor.ufa.plugfr.org</a><br />
+<a href="http://valtrex-online.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://valtrex-online.ufa.plugfr.org</a><br />
+<a href="http://cheap-zoloft.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://cheap-zoloft.ufa.plugfr.org</a><br />
+<a href="http://cheap-zyban.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://cheap-zyban.ufa.plugfr.org</a><br />
+<a href="http://buy-xenical.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://buy-xenical.ufa.plugfr.org</a><br />
+<a href="http://buy-wellbutrin.ufa.plugfr.org" onclick="window.open(this.href, '_self'); return false;">http://buy-wellbutrin.ufa.plugfr.org</a><br />
+<a href="http://cheapest-online-pharmacy.741.com" onclick="window.open(this.href, '_self'); return false;">http://cheapest-online-pharmacy.741.com</a><br />
+<a href="http://viagra-cialis.20m.com" onclick="window.open(this.href, '_self'); return false;">http://viagra-cialis.20m.com</a><br />
+<a href="http://green-card-lottery.asa.dynam.ac" onclick="window.open(this.href, '_self'); return false;">http://green-card-lottery.asa.dynam.ac</a><br />
+<a href="http://visa-lottery.0up.org" onclick="window.open(this.href, '_self'); return false;">http://visa-lottery.0up.org</a><br />
+<a href="http://buy-spermamax.lgh.dyndns.dk/" onclick="window.open(this.href, '_self'); return false;">http://buy-spermamax.lgh.dyndns.dk/</a><br />
+<a href="http://buy-horny-goat-weed.6-9.us/" onclick="window.open(this.href, '_self'); return false;">http://buy-horny-goat-weed.6-9.us/</a> horny goat weed<br />
+<a href="http://cialisrx.sky.prohosting.com/" onclick="window.open(this.href, '_self'); return false;">http://cialisrx.sky.prohosting.com/</a> <br />
+<a href="http://cheapest-online-pharmacy.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheapest-online-pharmacy.mr7.kiev.ua/</a><br />
+<a href="http://cheapvalium.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheapvalium.mr7.kiev.ua/</a><br />
+<a href="http://hydrocodone.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://hydrocodone.mr7.kiev.ua/</a> hydrocodone bitrate<br />
+<a href="http://ultram-cheap.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://ultram-cheap.mr7.kiev.ua/</a> ultram valium<br />
+<a href="http://xanax.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://xanax.mr7.kiev.ua/</a> xanax brand<br />
+<a href="http://buylortab.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buylortab.mr7.kiev.ua/</a> lortab shoping<br />
+<a href="http://buyvicodin.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buyvicodin.mr7.kiev.ua/</a> vicodin UK<br />
+<a href="http://cheap-adipex.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheap-adipex.mr7.kiev.ua/</a> adipex USA<br />
+<a href="http://cheap-didrex.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheap-didrex.mr7.kiev.ua/</a> didrex Canada<br />
+<a href="http://ambien.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://ambien.mr7.kiev.ua/</a> ambien <br />
+<a href="http://buy-alprazolam.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-alprazolam.mr7.kiev.ua/</a> alprazolam order now<br />
+<a href="http://buy-cheap-tramadol.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-cheap-tramadol.mr7.kiev.ua/</a> buy cheap tramadol<br />
+<a href="http://buy-cheap-viagra.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-cheap-viagra.mr7.kiev.ua/</a><br />
+<a href="http://buy-cialis.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-cialis.mr7.kiev.ua/</a> buy-cialis<br />
+<a href="http://cheap-fioricet.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheap-fioricet.mr7.kiev.ua/</a> fioricet<br />
+<a href="http://cheap-phentermine.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://cheap-phentermine.mr7.kiev.ua/</a> phentermine pills<br />
+<a href="http://trx3.com/" onclick="window.open(this.href, '_self'); return false;">http://trx3.com/</a> pharmacy shop<br />
+<a href="http://cialis-city.com/" onclick="window.open(this.href, '_self'); return false;">http://cialis-city.com/</a> online drugstore<br />
+<a href="http://buy-codeine.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-codeine.mr7.kiev.ua/</a><br />
+<a href="http://buy-diazepam.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-diazepam.mr7.kiev.ua/</a><br />
+<a href="http://buy-hgh.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-hgh.mr7.kiev.ua/</a><br />
+<a href="http://buy-levitra.mr7.kiev.ua/" onclick="window.open(this.href, '_self'); return false;">http://buy-levitra.mr7.kiev.ua/</a><br />
+<a href="http://buy-fatblast.def.27south.com/" onclick="window.open(this.href, '_self'); return false;">http://buy-fatblast.def.27south.com/</a><br />
+<a href="http://cheap-maxaman.fre.101main.com/" onclick="window.open(this.href, '_self'); return false;">http://cheap-maxaman.fre.101main.com/</a><br />
+<a href="http://virility-patch.nor.myip.org/" onclick="window.open(this.href, '_self'); return false;">http://virility-patch.nor.myip.org/</a><br />
+<a href="http://prozac-online.xer.dns2go.com/" onclick="window.open(this.href, '_self'); return false;">http://prozac-online.xer.dns2go.com/</a><br />
+<a href="http://hangover-pills-online.sms2.us/" onclick="window.open(this.href, '_self'); return false;">http://hangover-pills-online.sms2.us/</a><br />
+<a href="http://pharmacy-article.pisem.net/" onclick="window.open(this.href, '_self'); return false;">http://pharmacy-article.pisem.net/</a><br />
+<a href="http://ugg-boots.ret.mygamesite.net/" onclick="window.open(this.href, '_self'); return false;">http://ugg-boots.ret.mygamesite.net/</a><br />
+<a href="http://generic-viagra.opi.linux-dude.com/" onclick="window.open(this.href, '_self'); return false;">http://generic-viagra.opi.linux-dude.com/</a></p>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px dotted gray; margin-top: 12px;">
+	<tr>
+		<td valign="top">
+			<i>BEPHPUG:HomePage (212.164.71.254)<br />
+			Wed, 02 Nov 2005, 23:49</i>
+		</td>
+		<td align="right" valign="top">
+			[ <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=links">Links</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=source">Source</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=history">History</a>						| <a href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&amp;page=HomePage">RSS</a>						]
+		</td>
+	</tr>
+</table>
+
+<p style="font-size: 80%; text-align: center;">This site powered by <a href="http://yawiki.com/">YaWiki 0.22 beta</a>.</p>
+
+
+
+				</td>
+				<td valign="top" width="15%">
+									</td>
+			</tr>
+		</table>
+	</body>
+</html>

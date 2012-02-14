@@ -1,0 +1,397 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<title>BEPHPUG -- HomePage</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS feed" href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&page=HomePage" />
+		        <style>
+			body, p, br, td, th {
+				font-family: Verdana, Arial, Geneva;
+				font-size: 9pt;
+				color: black;
+			}
+			
+			blockquote {
+				border: 1px solid silver;
+				background: #eee;
+				margin: 4px;
+				padding: 4px 12px;
+			}
+			
+			table.admin {
+				border: 2px solid #039;
+				border-spacing: 0px;
+				padding: 0px;
+			}
+			
+			th.admin {
+				padding: 4px;
+				background: #039;
+				color: white;
+				font-weight: bold;
+				vertical-align: bottom;
+			}
+			
+			td.admin {
+				border: 1px solid white;
+				padding: 4px;
+				background: #eee;
+				vertical-align: top;
+			}
+			
+			h1 { font-size: 24pt; }
+			h2 { font-size: 20pt; }
+			h3 { font-size: 18pt; }
+			h4 { font-size: 16pt; }
+			h5 { font-size: 14pt; }
+			h6 { font-size: 12pt; }
+			
+			a:link, a:active, a:visited {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px solid blue;
+			}
+			
+			a:hover {
+				color: blue;
+				text-decoration: none;
+				border-bottom: 1px dotted blue;
+			}
+			
+			li {
+				margin-top: 3pt;
+				margin-bottom: 3pt;
+			}
+			
+			pre {
+				border: 1px dashed #036;
+				background: #eee;
+				padding: 6pt;
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+				line-height: 140%;
+			}
+			
+			input[type="text"], input[type="password"], textarea {
+				font-family: ProFont, Monaco, Courier, "Andale Mono", monotype;
+				font-size: 9pt;
+			}
+			
+			table.nav_table {
+				width: 100%;
+			}
+			
+			td.tabs_marginal {
+				background: white;
+				border-bottom: 1px solid black;
+			}
+			
+			td.tabs_unselect {
+				background: #aaa;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.tabs_selected {
+				background: #ddd;
+				border-top: 1px solid black;
+				border-left: 1px solid black;
+				border-right: 1px solid black;
+				border-bottom: none;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.wide_marginal {
+				background: #ddd;
+				border-bottom: 1px solid black;
+			}
+			
+			td.wide_unselect {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td.wide_selected {
+				background: #ddd;
+				border-bottom: 1px solid black;
+				text-align: center;
+				font-weight: bold;
+			}
+			
+			td.tall_unselect {
+				font-weight: normal;
+			}
+			
+			td.tall_selected {
+				font-weight: normal;
+			}
+			
+			table.yawiki {
+				border-spacing: 0px;
+				border: 1px solid gray;
+			}
+			
+			tr.yawiki {
+			}
+			
+			th.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+				font-weight: bold;
+			}
+			
+			td.yawiki {
+				margin: 1px;
+				border: 1px solid silver;
+				padding: 4px;
+			}
+			
+			th.yawiki-form {
+				text-align: right;
+				padding: 4px;
+			}
+			
+			td.yawiki-form {
+				text-align: left;
+				padding: 4px;
+			}
+			
+			legend.yawiki-form {
+				font-size: 120%;
+			}
+			
+			label.yawiki-form {
+				font-weight: bold;
+			}
+			
+			div.toc_list {
+				border: 1px solid #ccc;
+				background-color: #eee;
+				padding: 1em;
+			}
+			
+			div.toc_item {
+				font-size: 90%;
+				margin-top: 0.5em;
+			}
+			
+				
+			
+		</style>
+		</head>
+	
+	<body>
+		
+		<!-- top span: title section -->
+		<table width="100%" border="0" cellspacing="4" cellpadding="4">
+			<tr>
+				<td valign="top" align="left">
+					<h1>BePHPUG</h1>
+					<p><em>Berliner PHP user group</em></p>
+				</td>
+				<td valign="top" align="right">
+					<p>[&nbsp;<a href="search.php">AdvancedSearch</a>&nbsp;|&nbsp;<a href="http://wiki.pooteeweet.org/BEPHPUG/AreaMap">AreaMap</a>&nbsp;]</p>
+					<p>
+<form action="search.php" method="get">
+	<input type="hidden" name="qtype" value="any" />	<input type="hidden" name="op" value="Search" /> 
+	Search: <input type="text" name="qword" value="" size="10" />	<input type="submit" name="" value="Go!" /></form></p>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- top span: nav section -->
+				
+		<!-- main body -->
+		<table width="100%" border="0" cellspacing="12" cellpadding="0">
+			<tr>
+			
+				<!-- left span -->
+				<td valign="top" width="15%" align="center">
+				
+					<div style="padding: 4px; border: 1px dotted gray;">
+<script language="JavaScript">
+function createNewPage(link) {
+	var newpage = prompt("New page name?");
+	if (newpage == null || newpage == "") return false;
+	link.href = "edit.php?area=BEPHPUG&page="+newpage;
+	return true;
+}
+</script>
+
+
+	
+		<form method="post" action="/BEPHPUG/index.php?area=BEPHPUG&amp;page=HomePage&amp;dt=2009-07-02%2014:06:16">
+			<input type="hidden" name="LOGIN" />
+			<p>Username:<br /><input type="text" name="username" size="10" /></p>
+			<p>Password:<br /><input type="password" name="password" size="10" /></p>
+			<p><input type="submit" value="Sign In" /></p>
+			
+					</form>
+
+		
+
+
+
+
+</div><br />					
+										<div style="padding: 4px; border: 1px dotted gray;">
+						<p><b>Areas In<br />This Wiki</b></p>
+						
+						<p>BEPHPUG</p>
+<p><a href="http://wiki.pooteeweet.org/Conferences/">Conferences</a></p>
+<p><a href="http://wiki.pooteeweet.org/emPHPower/">emPHPower</a></p>
+<p><a href="http://wiki.pooteeweet.org/LiveUser/">LiveUser</a></p>
+<p><a href="http://wiki.pooteeweet.org/Main/">Main</a></p>
+<p><a href="http://wiki.pooteeweet.org/MDB2/">MDB2</a></p>
+<p><a href="http://wiki.pooteeweet.org/PDO/">PDO</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPSVN/">PHPSVN</a></p>
+<p><a href="http://wiki.pooteeweet.org/PHPTODO/">PHPTODO</a></p>
+<p><a href="http://wiki.pooteeweet.org/RDBMS/">RDBMS</a></p>
+<p><a href="http://wiki.pooteeweet.org/WebBuilder2/">WebBuilder2</a></p>
+					</div>
+										
+				</td>
+				
+				<!-- middle span -->
+				<td valign="top" width="70%">
+
+<p style="color: red; text-align: center;">Previous version dated<br />Thu, 02 Jul 2009, 14:06</p>
+
+
+<h3 id="toc0">Willkommen bei der Berliner PHP Usergroup</h3>
+<p><img src="http://www.bephpug.de/logo-400x300.png" alt="http://www.bephpug.de/logo-400x300.png" /></p>
+
+<p>Wir treffen uns jeden ersten Mittwoch im Monat in der Z-Bar, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelm&auml;&szlig;ig spannende Vortr&auml;ge und Diskussionen in lockerer Atmosph&auml;re. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst besch&auml;ftigt.</p>
+
+<p>Hast Du Lust, Gleichgesinnte zu treffen, Neues &uuml;ber PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim n&auml;chsten Treffen in der Z-Bar vorbei.</p>
+
+<p>F&uuml;r Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verf&uuml;gung (siehe unten).</p>
+
+<p><strong> <a href="http://www.z-bar.de/" onclick="window.open(this.href, '_self'); return false;">www.Z-Bar.de (Bergstr. 2 / Berlin-Mitte)</a> </strong></p>
+
+<p><img src="http://www.z-bar.de/neon-z.gif" alt="http://www.z-bar.de/neon-z.gif" /></p>
+
+<h5 id="toc1">N&auml;chstes Treffen: Mittwoch, 5. August 2009 - 20:30 Uhr</h5>
+<blockquote><p><strong> Vortr&auml;ge:</strong><br />
+Debugging mit Xdebug (Martin Rothenberger)<br />
+Diskussion zu aktuellen Themen</p>
+
+</blockquote>
+<p>Um einen weiteren Vortrag anzubieten, kannst Du einfach diese Wiki-Seite &auml;ndern oder an die Mailingliste schreiben.</p>
+
+<h6 id="toc2">Naechste Veranstaltungen und Vortraege</h6>
+<blockquote><p><strong>2. September, 2009</strong><br />
+TBD</p>
+
+</blockquote>
+<blockquote><p><strong>7. Oktober, 2009</strong><br />
+TBD</p>
+
+</blockquote>
+<h5 id="toc3">Mailingliste: bephpug@thing.org</h5>
+<p>&Uuml;ber die Mailingliste koordinieren wir unsere Treffen und tauschen uns generell zum Thema PHP aus. Hier bekommst Du vor allem kurz vor den Treffen die aktuellsten Informationen, welche Vortr&auml;ge es geben wird und wer dabei sein wird.</p>
+
+<p><a href="https://mail.einsnull.com/mailman/listinfo/bephpug" onclick="window.open(this.href, '_self'); return false;">Anmelden auf der Mailingliste</a><br />
+(Traffic: etwa 10-20 Mails pro Monat - nicht wundern: das Archiv ist deaktiviert)</p>
+
+<h5 id="toc4">Themenvorschl&auml;ge</h5>
+<p>An dieser Stelle kannst Du selbst Themen vorschlagen, zu denen Du gerne einen Vortrag h&ouml;ren w&uuml;rdest. Trag Dich dazu einfach in diese Wiki-Seite ein oder schreib eine Mail an die Mailingliste. Die Vorschl&auml;ge sollen als Anregungen f&uuml;r eigene Betr&auml;ge dienen. Wenn Dich also ein Thema besonders interessiert oder Du Dich in einem Bereich gut auskennst, z&ouml;gere nicht der Gruppe etwas zur&uuml;ck zu geben, indem Du einen kurzen Vortrag dazu vorbereitest.</p>
+
+
+<ul>
+    <li>Das Model-View-Contoller-Pattern (Robert)</li>
+    <li>osCommerce (Markus)</li>
+    <li>SPAM in G&auml;steb&uuml;chern, Foren, Wikis, Kontaktfomularen, etc.</li>
+    <li>VIM als Entwicklungsumgebung</li>
+    <li>Einf&uuml;hrung in PHP-GTK</li>
+    <li>eZ Components</li>
+    <li>Zend Framework (Thomas?)</li>
+    <li>Continuous Integration (Till?)</li>
+    <li>PHP-Qt</li>
+    <li>twoBirds (Frank)</li>
+</ul>
+
+<h5 id="toc5">Vortragsfolien bisheriger Vortr&auml;ge:</h5>
+<p><a href="http://www.bephpug.de/folien/" onclick="window.open(this.href, '_self'); return false;">folien/</a><br />
+
+<ul>
+    <li><a href="http://coding-robin.de/talks/bephpug-072009-zfintro.pdf" onclick="window.open(this.href, '_self'); return false;">Zend Framework Intro</a> - <a href="http://coding-robin.de/" onclick="window.open(this.href, '_self'); return false;">Robin Mehner</a>, 01.07.2009</li>
+    <li><a href="http://docs.google.com/Presentation?id=acnqdvn8rf7r_20hfgtw6cq" onclick="window.open(this.href, '_self'); return false;">Testing (with) PHP</a> - <a href="http://till.klampaeckel.de" onclick="window.open(this.href, '_self'); return false;">Till Klampaeckel</a>, 06.05.2009</li>
+    <li><a href="http://www.manuel-blechschmidt.de/data/Magento.pdf" onclick="window.open(this.href, '_self'); return false;">Magento in a Nutshell</a> (<a href="http://www.manuel-blechschmidt.de/data/Magento.odp" onclick="window.open(this.href, '_self'); return false;">ODP</a>) - <a href="http://www.manuel-blechschmidt.de/" onclick="window.open(this.href, '_self'); return false;">Manuel</a>, 04.03.2009</li>
+    <li><a href="http://www.maxhorvath.com/documents/ipc2008_slide_making_selenium_1/ipc2008_slide_making_selenium_test_writing_easier_using_a_dsl.pdf" onclick="window.open(this.href, '_self'); return false;">Making Selenium Test Writing easier using a DSL</a> (<a href="http://selenium.seleniumhq.org/" onclick="window.open(this.href, '_self'); return false;">Selenium Website</a>) - <a href="http://www.maxhorvath.com/" onclick="window.open(this.href, '_self'); return false;">Max</a>, 03.12.2008</li>
+    <li><a href="http://jan.prima.de/BEPHPUG_CouchDB2008.pdf" onclick="window.open(this.href, '_self'); return false;">CouchDB</a> (<a href="http://incubator.apache.org/couchdb/" onclick="window.open(this.href, '_self'); return false;">CouchDB Website</a>) - <a href="http://jan.prima.de/" onclick="window.open(this.href, '_self'); return false;">Jan</a>, 05.11.2008</li>
+    <li><a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-paper.pdf" onclick="window.open(this.href, '_self'); return false;">Metaprogrammierung &amp; Reflection mit PHP</a> (<a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/metaprogramming/src/MetaPHP/" onclick="window.open(this.href, '_self'); return false;">SVN: Demo-Programm</a>) (<a href="http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-v1.0.pdf" onclick="window.open(this.href, '_self'); return false;">Folien</a>) - <a href="https://www.ohloh.net/accounts/falko" onclick="window.open(this.href, '_self'); return false;">Falko</a>, 24.01.2008</li>
+    <li><a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung.pdf" onclick="window.open(this.href, '_self'); return false;">Erfahrungen aus der Entwicklung von phpBB3 (security)</a> (<a href="http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung-src.zip" onclick="window.open(this.href, '_self'); return false;">LaTeX-Quelltext</a>) - Henry, 03.12.2007</li>
+    <li><a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/refactoring-and-unit-testing.html" onclick="window.open(this.href, '_self'); return false;">Refactoring: Von prozeduralem PHP4 zu objektorientiertem PHP5</a> (<a href="http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/workshop-2007-12-03-refactoring-and-unit-testing.zip" onclick="window.open(this.href, '_self'); return false;">Beispiele</a>) - <a href="https://www.ohloh.net/accounts/falko" onclick="window.open(this.href, '_self'); return false;">Falko</a>, 03.12.2007</li>
+    <li><a href="http://instantsvc.sourceforge.net/docs/php5_oop.pdf" onclick="window.open(this.href, '_self'); return false;">Einführung in objektorientiertes Entwickeln mit PHP5</a> - Gregor, 03.12.2007</li>
+    <li><a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.pdf" onclick="window.open(this.href, '_self'); return false;">Aufdecken von Designfehlern mit statischen Call-Graphen</a> (als <a href="http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.odp" onclick="window.open(this.href, '_self'); return false;">ODP</a>) (<a href="http://phpcallgraph.sourceforge.net/" onclick="window.open(this.href, '_self'); return false;">Website</a>) - <a href="https://www.ohloh.net/accounts/falko" onclick="window.open(this.href, '_self'); return false;">Falko</a>, 06.11.2007</li>
+    <li><a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.pdf" onclick="window.open(this.href, '_self'); return false;">InstantSVC: Web-Service-Generierung für PHP</a> (als <a href="https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.odp" onclick="window.open(this.href, '_self'); return false;">ODP</a>) (<a href="http://instantsvc.sf.net" onclick="window.open(this.href, '_self'); return false;">Website</a>) - <a href="https://www.ohloh.net/accounts/falko" onclick="window.open(this.href, '_self'); return false;">Falko</a>, 04.09.2007</li>
+    <li><a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.pdf" onclick="window.open(this.href, '_self'); return false;">PHP-Framework mit minimalistischem Ansatz</a> (als <a href="http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.odp" onclick="window.open(this.href, '_self'); return false;">ODP</a>) - Fabian, 07.08.2007</li>
+    <li><a href="http://www.bephpug.de/folien/saubere_urls.html" onclick="window.open(this.href, '_self'); return false;">  Saubere URLs</a> - <a href="http://www.profv.de/" onclick="window.open(this.href, '_self'); return false;">Volker</a>, 05.06.2007</li>
+    <li><a href="http://www.bephpug.de/folien/freie_software.html" onclick="window.open(this.href, '_self'); return false;">Freie Software</a> - <a href="http://www.profv.de/" onclick="window.open(this.href, '_self'); return false;">Volker</a>, 08.05.2007</li>
+    <li><a href="http://www.bephpug.de/folien/soap_php_dotnet.zip" onclick="window.open(this.href, '_self'); return false;">Web Services mit PHP/NuSoap und C#/.NET</a> - Torsten, 06.07.2004</li>
+    <li><a href="http://www.bephpug.de/folien/qualitaet.tar.gz" onclick="window.open(this.href, '_self'); return false;">   Unit-Tests und Qualitätssicherung</a> - Manuel</li>
+    <li><a href="http://www.bephpug.de/folien/fop.zip" onclick="window.open(this.href, '_self'); return false;">            FOP &amp; PHP</a> - Robert &amp; Manuel, 2004</li>
+    <li><a href="http://www.bephpug.de/folien/flashphp.zip" onclick="window.open(this.href, '_self'); return false;">       Flash &amp; PHP</a> - Manuel, 2004</li>
+    <li><a href="http://www.bephpug.de/folien/design_pattern.zip" onclick="window.open(this.href, '_self'); return false;"> Design-Patterns</a> - Manuel, Juni 2004</li>
+    <li><a href="http://www.bephpug.de/folien/barrierefrei.zip" onclick="window.open(this.href, '_self'); return false;">   Barrierefreiheit</a> - Manuel, 2004</li>
+</ul>
+
+</p>
+
+<h5 id="toc6">Krypto-Info:</h5>
+<p>Stolze Besitzer eines GPG-Schl&uuml;ssels:<br />
+
+<ul>
+    <li>Volker Grabsch (7BE52077)</li>
+    <li>Christoph Becker (59995AE4)</li>
+    <li>Fabian Blechschmidt (A87B579C)</li>
+    <li>Manuel Blechschmidt (9A24EDDB)</li>
+</ul>
+
+</p>
+
+<h5 id="toc7">Weitere PHP User Groups in Deutschland:</h5>
+
+<ul>
+    <li><a href="http://www.phpug.de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpug.de/</a></li>
+    <li><a href="http://www.phpclasses.org/browse/country/de/" onclick="window.open(this.href, '_self'); return false;">http://www.phpclasses.org/browse/country/de/</a></li>
+    <li><a href="http://www.phpug-duesseldorf.de" onclick="window.open(this.href, '_self'); return false;">http://www.phpug-duesseldorf.de</a></li>
+</ul>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="4" style="border: 1px dotted gray; margin-top: 12px;">
+	<tr>
+		<td valign="top">
+			<i>BEPHPUG:HomePage (till)<br />
+			Thu, 02 Jul 2009, 14:06</i>
+		</td>
+		<td align="right" valign="top">
+			[ <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=links">Links</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=source">Source</a>			| <a href="http://wiki.pooteeweet.org/BEPHPUG/HomePage&amp;view=history">History</a>						| <a href="http://wiki.pooteeweet.org/rss.php?area=BEPHPUG&amp;page=HomePage">RSS</a>						]
+		</td>
+	</tr>
+</table>
+
+<p style="font-size: 80%; text-align: center;">This site powered by <a href="http://yawiki.com/">YaWiki 0.22 beta</a>.</p>
+
+
+
+				</td>
+				<td valign="top" width="15%">
+									</td>
+			</tr>
+		</table>
+	</body>
+</html>

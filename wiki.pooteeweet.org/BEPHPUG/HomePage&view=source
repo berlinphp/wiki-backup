@@ -1,0 +1,177 @@
++++ Willkommen bei der Berliner PHP Usergroup
+
+<html>
+<p>
+<img src="http://www.bephpug.de/logo-400x300.png" style="float:left; padding-right: 15px;" />
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 250,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#f0f0f0',
+      color: '#030303'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#2207eb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('bephpug').start();
+</script>
+</div>
+</p>
+<p>
+&nbsp;
+</p>
+</html>
+
+Wir treffen uns **jeden ersten Dienstag im Monat bei [http://co-up.de co-up] in Berlin, Kreuzberg**, um uns zu PHP, Webentwicklung, Freier Software und angrenzenden Themen auszutauschen. Es gibt regelmäßig spannende Vorträge und Diskussionen in lockerer Atmosphäre. Besonders gern sind Themen und Projekte gesehen, mit denen sich der Vortragende gerade selbst beschäftigt.
+
+Hast Du Lust, Gleichgesinnte zu treffen, Neues über PHP und verwandte Technologien des Internets zu lernen oder selbst einen Vortrag zu halten? Dann komm einfach beim nächsten Treffen vorbei.
+
+Für Fragen, Absprachen und aktuelle Informationen steht unsere Mailingliste zu Verfügung (siehe unten).
+
+**In English:** We meet every first Tuesday of the month at [http://co-up.de co-up]. Talks are usually in German, but we are open to English as well. Usually people are able to switch from German into English if the audience requires it.
+
+<html>
+<br />
+<br />
+<br />
+<br />
+</html>
+++++++ Usergroup Treffen / Meetups!
+
+**Nächste Veranstaltungen und Vorträge / Next meetup and topics:**
+
+> **6. März, 2012, 19:00 Uhr**
+> * Shopsysteme im Überblick
+>
+> Bisherige Talks:
+> 
+> * Daniel Fahlke: Sylius
+> * Martin Rothenberger: Magento Community vs. Enterprise
+> * Markus Will: osCommerce 2
+> * Hans-Christian Psaar: Shopware
+> * Thomas Lohner: OXID
+> * Nicole Cordes: Typo3 und Shop
+
+> Weitere Vorschläge gerne gesehen.
+>
+> Getränke sind gegen ein kleines Entgelt verfügbar.
+++++++ Location:
+
+[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Adalbertstr.+7-8,+10999+Berlin,+Germany&ie=UTF8&hq=&hnear=Adalbertstra%C3%9Fe+7,+Kreuzberg+10999+Berlin,+Germany&ll=52.504075,13.419671&spn=0.010214,0.027595&z=15&iwloc=A co-up / Upstream Berlin, Adalbertstr. 7-8, 10999 Berlin]
+
++++++ Mailingliste: bephpug@thing.org
+
+Über die Mailingliste koordinieren wir unsere Treffen und tauschen uns generell zum Thema PHP aus. Hier bekommst Du vor allem kurz vor den Treffen die aktuellsten Informationen, welche Vorträge es geben wird und wer dabei sein wird.
+
+[https://mail.einsnull.com/mailman/listinfo/bephpug Anmelden auf der Mailingliste]
+(Traffic: etwa 10-20 Mails pro Monat - nicht wundern: das Archiv ist nur für Mitglieder der Liste zugaenglich)
+
++++++ Themenvorschläge
+
+An dieser Stelle kannst Du selbst Themen vorschlagen, zu denen Du gerne einen Vortrag hören würdest. Trag Dich dazu einfach in diese Wiki-Seite ein oder schreib eine Mail an die Mailingliste. Die Vorschläge sollen als Anregungen für eigene Beträge dienen. Wenn Dich also ein Thema besonders interessiert oder Du Dich in einem Bereich gut auskennst, zögere nicht der Gruppe etwas zurück zu geben, indem Du einen kurzen Vortrag dazu vorbereitest.
+
+* Das Model-View-Contoller-Pattern (Robert)
+* SPAM in Gästebüchern, Foren, Wikis, Kontaktfomularen, etc.
+* VIM als Entwicklungsumgebung
+* Einführung in PHP-GTK
+* eZ Components
+* PHP-Qt
+* twoBirds (Frank)
+
++++++ Bisherige Vorträge:
+
+[http://www.bephpug.de/folien/ folien/]
+* La Distribution - François Hodierne, 07.02.2012 
+* [http://speakerdeck.com/u/till/p/suhosin-phps-safety-net suhosin - PHP's safety net] - Till Klampaeckel, 07.02.2012
+* [http://www.slideshare.net/bashofmann/introduction-to-rginjection Introduction to rginjection] - Bastian Hofmann, 07.02.2012
+* !NetBeans - Daniel Fahlke, 17.01.2012
+* Cloud9 IDE - Daniel Fahlke, 17.01.2012
+* phpStorm - Fabian Blechschmit (und Bastian Hofmann), 17.01.2012
+* [http://speakerdeck.com/u/till/p/nano nano – the best editor ever, or maybe not] – [http://till.klampaeckel.de/blog/ Till Klampaeckel], 17.01.2012
+* [http://www.profv.de/vim-watch-wmii Vim, Watch, Wmii] - [http://www.profv.de/ Volker Grabsch], 17.01.2012
+* Zend Studio - [http://sch0ll.de Michael Scholl], 17.01.2012
+* mysqlnd_uh - Gordon Frank, 06.12.2011
+* [http://speakerdeck.com/u/joshk/p/travis-ci-101-berlin-php-users-group travis-ci] - Josh Kalderimis, 06.12.2011
+* [http://phpcr.github.com/slides.html PHPCR] - [http://pooteeweet.org/ Lukas Smith], 01.11.2011
+* [http://www.bephpug.de/folien/11-07-05_FB_Like-Buttons.pdf Facebook Like Buttons] - Fabian Blechschmidt, 05.07.2011
+* ???, 07.06.2011
+* [http://www.bephpug.de/folien/SilverStripe.pdf Silverstripe] - [http://philipp-staender.com/ Philipp Ständer], 03.05.2011
+* ezmlm - Daniel Fahlke, 03.05.2011
+* [http://www.profv.de/texcaller/ Texcaller] - [http://www.profv.de/ Volker Grabsch], 05.04.2011
+* [http://www.bephpug.de/folien/scaleup_deck_openstack.pdf OpenStack] - Christoph Streit, 05.04.2011
+* codeigniter, ..., 01.03.2011
+* [http://www.slideshare.net/mobile/woodworker/zeta-components zeta components] - Martin Holzhauer, 01.03.2011
+* [http://www.bephpug.de/folien/yii_presentation.pdf Yii Framework] - Daniel Fahlke, 01.03.2011
+* [http://www.bephpug.de/folien/BEPHPUG_ZF_Vortrag.pdf Zend Framework] - Michael Scholl, 01.03.2011
+* [http://www.ikonoshirt.de/stuff/11-03-01_symfony.pdf Symfony] - Fabian Blechschmidt, 01.03.2011
+* [http://www.bephpug.de/folien/Zend%20Server%20Cluster%20Manager%20-%20Session%20Clustering.pdf Zend Server Cluster Manager] - Jan Burkl, 01.02.2011
+* [http://www.bephpug.de/folien/Zf2.pdf Zend Framework 2.0] - Jan Burkl, 01.02.2011
+* [http://www.slideshare.net/jweiss/running-on-amazon-ec2 Amazon Web Services] - Jonathan Weiss, 01.02.2011
+* PHP 5.3 - [http://coding-robin.de/ Robin Mehner], 04.01.2011
+* [https://s3.amazonaws.com/chef-talk/chef-talk.html#intro Automation with chef-solo!] - [http://till.klampaeckel.de Till Klampaeckel], 07.12.2010
+* [http://fholzhauer.de/varnish-bephpug-weiss.pdf Varnish] - Florian Holzhauer, 01.06.2010
+* [http://blog.ulf-wendel.de/?p=283 MySQLNd Plugin API] - Ulf Wendel, 01.06.2010
+* [http://www.bephpug.de/folien/MyHammer_Vortrag_Open_Source_BEPHPUG_20100406.pdf Vorstellung der Open Source Projekte von MyHammer] - Steven Berg, Jan Christiansen, Max Winde und Manuel Kiessling (!MyHammer), 06.04.2010
+* [http://www.bephpug.de/folien/PHPUG_Berlin_Zalando_06042010.pdf Ein Leben mit und ohne Magento] - Daniel Nowak (Rocket Internet) und Volker Pilz (Zalando), 06.04.2010
+* [http://www.bephpug.de/folien/Drupal_in_10min.pdf Drupal in 10 Minuten] - Alexander Wilde, 02.03.2010
+* [http://amauf.de/ecato-entwicklerprogramm-bephpug/ Die Shopping API von Ecato] - [http://amauf.de/ Andreas Mauf], 02.03.2010
+* [http://coding-robin.de/talks/bephpug-022010-legacy-code-refactoring.pdf Legacy Code Refactoring] - [http://coding-robin.de/ Robin Mehner], 02.02.2010
+* [http://www.bephpug.de/folien/Tobias%20Vogel%20PHP%20UG%20Berlin%20Talk.pdf Web Services und PHP] - Tobias Vogel, 05.01.2010
+* [http://www.profv.de/fsv/ Freie Software veröffentlichen] - [http://www.profv.de/ Volker Grabsch], 08.12.2009
+* [http://www.manuel-blechschmidt.de/data/PraesentationSaasKon.pdf Geschaeftsprozesse] - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt], 03.11.2009
+* [http://www.bephpug.de/folien/Performancetuning.ppt Performance Tuning] - Thomas Lohner, 06.10.2009
+* [http://docs.google.com/present/edit?id=0ASm2GG96-yQNYWNucWR2bjhyZjdyXzM1cXRxemd2Zzc&hl=en PHP in schnell] - [http://till.klampaeckel.de Till Klampaeckel], 01.09.2009
+* Debugging mit XDebug - [http://www.coding-squirrel.de/ Marthin Rothenberger], 05.08.2009
+* [http://coding-robin.de/talks/bephpug-072009-zfintro.pdf Zend Framework Intro] - [http://coding-robin.de/ Robin Mehner], 01.07.2009
+* [http://docs.google.com/Presentation?id=acnqdvn8rf7r_20hfgtw6cq Testing (with) PHP] - [http://till.klampaeckel.de Till Klampaeckel], 06.05.2009
+* [http://www.manuel-blechschmidt.de/data/Magento.pdf Magento in a Nutshell] ([http://www.manuel-blechschmidt.de/data/Magento.odp ODP]) - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt], 04.03.2009
+* [http://www.maxhorvath.com/documents/ipc2008_slide_making_selenium_1/ipc2008_slide_making_selenium_test_writing_easier_using_a_dsl.pdf Making Selenium Test Writing easier using a DSL] ([http://selenium.seleniumhq.org/ Selenium Website]) - [http://www.maxhorvath.com/ Max], 03.12.2008
+* [http://jan.prima.de/BEPHPUG_CouchDB2008.pdf CouchDB] ([http://incubator.apache.org/couchdb/ CouchDB Website]) - [http://jan.prima.de/ Jan], 05.11.2008
+* [http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-paper.pdf Metaprogrammierung & Reflection mit PHP] ([https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/metaprogramming/src/MetaPHP/ SVN: Demo-Programm]) ([http://instantsvc.sourceforge.net/docs/metaprogramming-and-reflection-with-php-v1.0.pdf Folien]) - [https://www.ohloh.net/accounts/falko Falko], 24.01.2008
+* [http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung.pdf Erfahrungen aus der Entwicklung von phpBB3 (security)] ([http://www.bephpug.de/folien/Erfahrungen_aus_der_phpBB3-Entwicklung-src.zip LaTeX-Quelltext]) - Henry, 03.12.2007
+* [http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/refactoring-and-unit-testing.html Refactoring: Von prozeduralem PHP4 zu objektorientiertem PHP5] ([http://phpcallgraph.sourceforge.net/docs/workshop-2007-12-03-refactoring-and-unit-testing/workshop-2007-12-03-refactoring-and-unit-testing.zip Beispiele]) - [https://www.ohloh.net/accounts/falko Falko], 03.12.2007
+* [http://instantsvc.sourceforge.net/docs/php5_oop.pdf Einführung in objektorientiertes Entwickeln mit PHP5] - Gregor, 03.12.2007
+* [http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.pdf Aufdecken von Designfehlern mit statischen Call-Graphen] (als [http://phpcallgraph.sourceforge.net/docs/presentation-2007-11-07-berlin-php-usergroup/presentation-2007-11-07-berlin-php-usergroup.odp ODP]) ([http://phpcallgraph.sourceforge.net/ Website]) - [https://www.ohloh.net/accounts/falko Falko], 06.11.2007
+* [https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.pdf InstantSVC: Web-Service-Generierung für PHP] (als [https://instantsvc.svn.sourceforge.net/svnroot/instantsvc/branches/transition/doc/presentations/berlin-php-usergroup/InstantSVC%20-%20The%20PHP%20Web%20Services%20Builder.odp ODP]) ([http://instantsvc.sf.net Website]) - [https://www.ohloh.net/accounts/falko Falko], 04.09.2007
+* [http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.pdf PHP-Framework mit minimalistischem Ansatz] (als [http://www.bephpug.de/folien/PHP-Framework_mit_minimalistischem_Ansatz.odp ODP]) - Fabian, 07.08.2007
+* [http://www.bephpug.de/folien/saubere_urls.html   Saubere URLs] - [http://www.profv.de/ Volker Grabsch], 05.06.2007
+* [http://www.bephpug.de/folien/freie_software.html Freie Software] - [http://www.profv.de/ Volker Grabsch], 08.05.2007
+* [http://www.bephpug.de/folien/soap_php_dotnet.zip Web Services mit PHP/NuSoap und C#/.NET] - Torsten, 06.07.2004
+* [http://www.bephpug.de/folien/qualitaet.tar.gz    Unit-Tests und Qualitätssicherung] - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt]
+* [http://www.bephpug.de/folien/fop.zip             FOP & PHP] - Robert & Manuel, 2004
+* [http://www.bephpug.de/folien/flashphp.zip        Flash & PHP] - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt], 2004
+* [http://www.bephpug.de/folien/design_pattern.zip  Design-Patterns] - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt], Juni 2004
+* [http://www.bephpug.de/folien/barrierefrei.zip    Barrierefreiheit] - [http://www.manuel-blechschmidt.de/ Manuel Blechschmidt], 2004
+
++++++ Krypto-Info:
+
+Stolze Besitzer eines GPG-Schlüssels:
+* Volker Grabsch (``7BE52077``)
+* Christoph Becker (``59995AE4``)
+* Fabian Blechschmidt (``A87B579C``)
+* Manuel Blechschmidt (``9A24EDDB``)
+
++++++ Weitere PHP User Groups in Deutschland:
+
+* http://www.phpug.de/
+* http://www.phpclasses.org/browse/country/de/
+* http://www.phpug-duesseldorf.de
